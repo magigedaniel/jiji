@@ -1,0 +1,1400 @@
+<!doctype html>
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en-US"><![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0" >
+<meta name="description" content="Integrate SMS in every application or configure in any software with our so easy and robust APIs or use our 24X7 support." />
+<meta name="keywords" content="smsapi, send sms api, bulk sms api" />
+<title>SMS API - Easy, secure and robust SMS APIs from MSG91</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="alternate" type="application/rss+xml" title="Enterprise SMS Marketing Blog" href="http://blog.msg91.com/feed/" /> 
+<link rel="stylesheet" type="text/css" href="css/bootstrap-structure-min.css">
+<style type="text/css">
+    .ic-oth{
+        background: url('https://d250qlh00f3d5m.cloudfront.net/education/features.png') no-repeat;
+    }
+    .ic-feat{
+        background: url('https://d250qlh00f3d5m.cloudfront.net/education/edu_spirit.png') no-repeat;
+    }
+    .edu_clnt_logo{
+        background: url('https://d250qlh00f3d5m.cloudfront.net/education/edu_client_logos.png');
+    }
+    .ic-strtup{
+        background: url('images/startups/strt_spirit.png');
+    }
+    .draft-oth {
+        background: url('https://d250qlh00f3d5m.cloudfront.net/stock/feature-draft.png') no-repeat;
+    }
+    .stk_clnt_logo{
+        background: url('https://d250qlh00f3d5m.cloudfront.net/stock/stock_clients_logo.png');
+    }
+    .devel-oth{
+        background: url('https://d250qlh00f3d5m.cloudfront.net/developer/developer_features.png') no-repeat;
+    }
+    .comm-oth {
+        background: url('https://d250qlh00f3d5m.cloudfront.net/internal-communication/ic-icons.png') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    .devel_clnt_logo{
+        background:url('https://d250qlh00f3d5m.cloudfront.net/developer/developer_clients.png') no-repeat;
+    }
+    .sms-min{
+        background:url('https://d250qlh00f3d5m.cloudfront.net/developer/sms-min.png') no-repeat;
+    }
+</style>
+
+<script type="text/javascript">
+    adroll_adv_id = "TPY3G6FCT5DYNKQROO3YNH";
+    adroll_pix_id = "UY6B2EY6FBA3ZF646FYIHM";
+    (function() {
+        var oldonload = window.onload;
+        window.onload = function() {
+            __adroll_loaded = true;
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+            if (oldonload) {
+                oldonload()
+            }
+        };
+    }());
+</script>
+
+<!--feedback icon bottom
+<a target="_blank" href="http://features.msg91.com/forums/146824-msg91-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
+    <img src="../images/feedback.png" />
+</a>--> 
+<link rel="stylesheet" type="text/css" href="css/developer-style.css">
+<link rel="canonical" href="sms-for-developers" />
+</head>
+<body>
+    <style type="text/css" scoped>
+.ui-button-icon-only{display:none;}
+.ui-menu{width:195px; z-index:100; overflow-y:auto; overflow-x:hidden;}
+</style>
+<header>
+    <div class="container clear pr">
+        <a href="index.html" id="logo"> <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3.3989 1.0977"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#1E75BA}
+    .fil1 {fill:#4B4B4D}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M0.00535259 0.421951l1.20645 -0.42154 0 -2.98749e-005c0.00349537,-0.00123483 0.00742641,0.000642311 0.00862141,0.00418 0.000258916,0.000746874 0.000383395,0.00152362 0.000383395,0.00223813l0 1.08413c0,0.00372441 -0.00304973,0.00677165 -0.00677414,0.00677165l-0.000901227 -6.22395e-005 -1.20669 -0.058764c-0.00359744,-0.000199166 -0.00642062,-0.00317421 -0.00642062,-0.00677414l-2.98749e-005 0 0 -0.603504c0,-0.00323396 0.0022705,-0.00596254 0.00535259,-0.00660485l0 -3.23645e-005 0 -9.95831e-006zm3.39353 0.641848l0 -0.531545 -0.0503965 0 -0.110005 0.061744 0.0142006 0.0439859 0.0887112 -0.0503642 0 0.476189 0.0574993 0 -9.95831e-006 -9.95831e-006zm-0.29018 -0.251226c-0.0149051,0.0999516 -0.0707588,0.191909 -0.174569,0.206523l-0.0546462 0.0035352 0 0.0489775c0.133887,0.00596254 0.235561,-0.0754865 0.272743,-0.204158 0.0345827,-0.119535 0.0222992,-0.3445 -0.146397,-0.344406 -0.208701,9.21144e-005 -0.231001,0.348357 -0.0212934,0.348419 0.0497841,0 0.0920198,-0.0205166 0.122067,-0.058891l0.00210618 0 -9.95831e-006 0zm-0.107868 -0.244121c0.0865427,0.000455593 0.108157,0.100213 0.107866,0.171487 -0.000425718,0.0956471 -0.211034,0.144779 -0.21148,-0.0334799 -0.000166802,-0.0635291 0.0318616,-0.137519 0.103624,-0.138007l-9.95831e-006 0zm-2.86369 -0.0304002c-0.0128811,-0.00369204 -0.0263846,0.00369204 -0.0300791,0.0165955 -0.00372192,0.0128711 0.00369453,0.0263547 0.0165657,0.0300766l0.440757 0.127573 0.00985375 -0.00816084 0.438853 -0.362236c0.0103392,-0.00849444 0.011833,-0.0238228 0.00330865,-0.0341645 -0.00849693,-0.0103716 -0.0238253,-0.0118653 -0.034167,-0.00333852l-0.428997 0.354093 -0.416096 -0.120438z"/>
+  <path class="fil1" d="M2.77817 0.784902l-0.167504 0 0 0.0475435 0.109288 0 0 0.173178c-0.0430124,0.0241141 -0.130778,0.0183158 -0.175635,0.000580072 -0.143743,-0.0568147 -0.155153,-0.28373 -0.0620976,-0.379439 0.0639847,-0.0657996 0.185075,-0.0760367 0.265414,-0.0370499l0.0156221 -0.0489426c-0.0690012,-0.0323819 -0.171883,-0.0290733 -0.239744,-0.00227299 -0.204875,0.0809312 -0.205716,0.38165 -0.061744,0.48566 0.0844664,0.0610594 0.221926,0.0553956 0.316401,0.0176312l0 -0.256897 0 9.95831e-006zm-0.482473 -0.244131c-0.0809013,-0.051828 -0.27641,-0.0325363 -0.276047,0.117065 0.000291281,0.124494 0.135901,0.139884 0.193985,0.182999 0.0843619,0.0626577 0.0454074,0.209252 -0.115937,0.176705 -0.0258667,-0.00521816 -0.0519202,-0.0149773 -0.073089,-0.0289787l-0.0163366 0.048975c0.0870929,0.0613606 0.308011,0.0510513 0.308011,-0.117812 0,-0.180728 -0.237025,-0.134865 -0.237025,-0.269666 0,-0.0978803 0.136648,-0.100835 0.198713,-0.0603847l0.0177258 -0.0489152 0 1.24479e-005zm-0.380998 -0.0177582l-0.073806 0c-0.0440805,0.122709 -0.122418,0.324927 -0.154695,0.455613l-0.00213606 0c-0.0374333,-0.147311 -0.0997375,-0.311123 -0.149738,-0.45558l-0.0723745 0 -0.03763 0.540784 0.0560703 0 0.0255356 -0.476219 0.00213606 0c0.0357528,0.149218 0.1021,0.327457 0.151884,0.474051l0.0432714 0c0.0553956,-0.155576 0.116652,-0.316856 0.162547,-0.474051l0.00210618 0c-0.000809113,0.12303 0.016242,0.359059 0.0227249,0.476189l0.058174 0 -0.0340599 -0.540786 -9.95831e-006 0z"/>
+ </g>
+</svg>
+ </a>
+        <div id="mobNav" class="">
+            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="MSG91" />
+            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="MSG91" />
+        </div>
+        <nav id="colorNav">
+            <ul class="navi">
+                <li class="menu "><a href="pricing/index.html">Pricing</a></li>
+                <li class="menu "><a target="_Blank" href="http://api.msg91.com/apidoc">API</a></li>
+                <li class="parentMenus pr active"><a href="javascript:void(0)">Industries</a>
+                    <div class="menu-bg">
+                        <div class="nav-column">
+                            <ul class="addonsMenu">
+                                <li ><a href="sms-for-developers">Developer</a></li>
+                                <li><a href="sms-in-education">Education</a></li>
+                                <li><a href="sms-reseller/index.html">SMS Reseller</a></li>
+                            </ul>
+                         </div>
+                        <div class="nav-column">
+                            <ul class="addonsMenu">      
+                                <li><a href="sms-for-alerts#clock">Stock Market</a></li>
+                                <li><a href="startups.1">Startups</a></li>
+                                <li><a href="internal-communication/index.html">Internal Communication</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </li>
+                <li class="parentMenus pr "><a href="javascript:void(0)">Tools &amp; Add-ons</a>
+                    <div class="menu-bg" id="sml">
+                        
+                            <ul class="addonsMenu">
+                                <li><a href="sms-for-spreadsheets">Excel plugin</a></li>
+                                <li><a href="sms-for-spreadsheets">Google spreadsheet</a></li>
+                                <li><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html" target="_blank">Magento plugin</a></li>
+                                <li><a href="cc2sms/index.html">CC 2 SMS</a></li>
+                                <li><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></li>
+                            </ul>
+                        
+                        <!--                        <div class="nav-column">
+                            <ul class="addonsMenu">
+                                <li ><a href="/coming-soon/">Android App</a></li>
+                                <li><a href="/coming-soon/">iPhone App</a></li>
+                                <li><a href="/coming-soon/">Windows App</a></li>
+                            </ul>
+                        </div>-->
+                    </div>
+                </li>
+                <li><a href="signin">Sign in</a></li>
+                 
+                <li class="bt"><a class="signUpBtn" href="signup">Sign up</a></li>
+                            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+<!-- main section start here -->
+    <div class="mainCnt">
+<!--banner section start-->
+   		 <section id="banner" class="education animatedParent" data-sequence="1000">
+         	  <section id="banner-top">
+        		 <div class="container">
+                	<div class="row">
+                   		 <div class="col-lg-12 col-sm-12">
+                     		 <h1 class="alC animated fadeIn slower">Elite services. Just for developers.</h1>
+                   		 </div>
+                	</div>
+            	</div>
+        	</section>
+            <div class="inner">
+                
+	<div class="code_editor">
+    	<ul class="clear" id="apitab">
+            <li class="active"><a href="sms-for-developers#xml">XML</a></li>
+            <li><a href="sms-for-developers#java">JAVA</a></li>
+            <li><a href="sms-for-developers#php">PHP</a></li>
+            <li><a href="sms-for-developers#python">Python</a></li>
+            <li><a href="sms-for-developers#c">C#</a></li>
+            <li><a href="sms-for-developers#windows8">Windows 8</a></li>
+            <li><a href="sms-for-developers#android">Android</a></li>
+            <li><a href="sms-for-developers#ios">iOS</a></li>                                
+             <li><a href="sms-for-developers#vb6">VB6</a></li>
+            <li><a href="sms-for-developers#javaxml">JAVA FOR XML</a></li>
+        </ul>
+<!-- editor div start -->
+<div id="editor_rp">
+<div class="tab-content">
+
+<div id="get" class="tab-pane fade">
+<pre class="editor" id="getEditor">
+function foo(items) {
+    var i;
+    for (i = 0; i &lt; items.length; i++) {
+        alert("Ace Rocks " + items[i]);
+    }
+}
+</pre>
+</div> <!-- end of get -->
+
+
+<div id="xml" class="tab-pane fade in active">
+<pre class="editor" id="xmlEditor">
+&lt;MESSAGE&gt;     
+	&lt;AUTHKEY&gt;Authentication Key &lt;/AUTHKEY&gt;     
+	&lt;SENDER&gt;SenderID&lt;/SENDER&gt;     
+	&lt;ROUTE&gt;Template&lt;/ROUTE&gt;     
+	&lt;CAMPAIGN&gt;XML API&lt;/CAMPAIGN&gt;     
+	&lt;SMS TEXT=&quot;message1&quot; &gt;         
+		&lt;ADDRESS TO=&quot;number1&quot;&gt;&lt;/ADDRESS&gt;         
+		&lt;ADDRESS TO=&quot;number2&quot;&gt;&lt;/ADDRESS&gt;     
+	&lt;/SMS&gt;     
+	&lt;SMS TEXT=&quot;hi test message&quot; &gt;         
+		&lt;ADDRESS TO=&quot;number3&quot;&gt;&lt;/ADDRESS&gt;
+	&lt;/SMS&gt;
+&lt;/MESSAGE&gt;
+</pre>
+</div> <!-- end of xml -->
+
+<div id="json" class="tab-pane fade">
+<pre class="editor" id="jsonEditor">
+{
+"menu": {
+    "header": "xProgress SVG Viewer",
+    "items": [
+        {
+            "id": "Open"
+        },
+        {
+            "id": "OpenNew",
+            "label": "Open New"
+        },
+        null,
+        {
+            "id": "ZoomIn",
+            "label": "Zoom In"
+        },
+        {
+            "id": "ZoomOut",
+            "label": "Zoom Out"
+        },
+        {
+            "id": "OriginalView",
+            "label": "Original View"
+        },
+        null,
+        {
+            "id": "Quality"
+        },
+        {
+            "id": "Pause"
+        },
+        {
+            "id": "Mute"
+        }
+    ]
+}
+}
+</pre>
+</div> <!-- end of json -->
+
+<div id="java" class="tab-pane fade">
+<pre class="editor" id="javaEditor">
+//Your authentication key
+String authkey = "YourAuthKey";
+//Multiple mobiles numbers separated by comma
+String mobiles = "9999999";
+//Sender ID,While using route4 sender id should be 6 characters long.
+String senderId = "102234";
+//Your message to send, Add URL encoding here.
+String message = "Test message";
+//define route
+String route="default";
+
+//Prepare Url
+URLConnection myURLConnection=null;
+URL myURL=null;
+BufferedReader reader=null;
+
+//encoding message 
+String encoded_message=URLEncoder.encode(message);
+
+//Send SMS API
+String mainUrl="https://control.msg91.com/api/sendhttp.php?";
+
+//Prepare parameter string 
+StringBuilder sbPostData= new StringBuilder(url);
+sbPostData.append("authkey="+authkey); 
+sbPostData.append("&mobiles="+mobiles);
+sbPostData.append("&message="+encoded_message);
+sbPostData.append("&route="+route);
+sbPostData.append("&sender="+senderId);
+
+//final string
+mainUrl = sbPostData.toString();
+try
+{
+    //prepare connection
+    myURL = new URL(mainUrl);
+    myURLConnection = myURL.openConnection();
+    myURLConnection.connect();
+    reader= new BufferedReader(new InputStreamReader(myURLConnection.getInputStream()));
+    //reading response 
+    String response;
+    while ((response = reader.readLine()) != null) 
+    //print response 
+    System.out.println(response);
+    
+    //finally close connection
+    reader.close();
+} 
+catch (IOException e) 
+{ 
+	e.printStackTrace();
+} 
+</pre>
+</div> <!-- end of java -->
+
+<div id="php" class="tab-pane fade">
+<pre class="editor" id="phpEditor">
+&lt;?php
+    <br />
+    //Your authentication key<br />
+    $authKey = &quot;YourAuthKey&quot;;
+    <br />
+    //Multiple mobiles numbers separated by comma<br />
+    $mobileNumber = &quot;9999999&quot;;
+    <br />
+    //Sender ID,While using route4 sender id should be 6 characters long.<br />
+    $senderId = &quot;102234&quot;;
+    <br />
+    //Your message to send, Add URL encoding here.<br />
+    $message = urlencode(&quot;Test message&quot;);
+    <br />
+    //Define route <br />
+    $route = &quot;default&quot;;
+    //Prepare you post parameters<br />
+    $postData = array(<br />
+        'authkey' =&gt; $authKey,<br />
+        'mobiles' =&gt; $mobileNumber,<br />
+        'message' =&gt; $message,<br />
+        'sender' =&gt; $senderId,<br />
+        'route' =&gt; $route<br />
+    );
+    <br />
+    //API URL<br />
+    $url=&quot;https://control.msg91.com/api/sendhttp.php&quot;;
+    <br />
+    // init the resource<br />
+    $ch = curl_init();
+    curl_setopt_array($ch, array(<br />
+        CURLOPT_URL =&gt; $url,<br />
+        CURLOPT_RETURNTRANSFER =&gt; true,<br />
+        CURLOPT_POST =&gt; true,<br />
+        CURLOPT_POSTFIELDS =&gt; $postData<br />
+        //,CURLOPT_FOLLOWLOCATION =&gt; true<br />
+    ));
+    <br />
+
+    //Ignore SSL certificate verification
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+
+    <br />
+    //get response<br />
+    $output = curl_exec($ch);
+    <br />
+    //Print error if any
+    if(curl_errno($ch))
+    {
+        echo 'error:' . curl_error($ch);
+    }
+    <br />
+    curl_close($ch);
+    <br />
+    echo $output;
+?&gt;
+</pre>
+</div> <!-- end of php -->
+
+<div id="python" class="tab-pane fade">
+<pre class="editor" id="pythonEditor">
+import urllib # Python URL functions<br />
+import urllib2 # Python URL functions<br />
+authkey = &quot;YourAuthKey&quot; # Your authentication key.
+<br />
+mobiles = &quot;9999999999&quot; # Multiple mobiles numbers separated by comma.
+<br />
+message = &quot;Test message&quot; # Your message to send.
+<br />
+sender = &quot;112233&quot; # Sender ID,While using route4 sender id should be 6 characters long.
+<br />
+route = &quot;default&quot; # Define route
+<br />
+# Prepare you post parameters<br />
+values = {<br />
+          'authkey' : authkey,<br />
+          'mobiles' : mobiles,<br />
+          'message' : message,<br />
+          'sender' : sender,<br />
+          'route' : route<br />
+          }<br />
+<br />
+url = &quot;https://control.msg91.com/api/sendhttp.php&quot; # API URL
+<br />
+postdata = urllib.urlencode(values) # URL encoding the data here.
+<br />
+req = urllib2.Request(url, postdata)
+<br />
+response = urllib2.urlopen(req)
+<br />
+output = response.read() # Get Response
+<br />
+print output # Print Response
+</pre>
+</div> <!-- end of python -->
+
+<div id="c" class="tab-pane fade">
+<pre class="editor" id="cEditor">
+//Your authentication key<br />
+string authKey = &quot;YourAuthKey&quot;;
+//Multiple mobiles numbers separated by comma<br />
+string mobileNumber = &quot;9999999&quot;;
+//Sender ID,While using route4 sender id should be 6 characters long.<br />
+string senderId = &quot;102234&quot;;
+//Your message to send, Add URL encoding here.<br />
+string message = HttpUtility.UrlEncode(&quot;Test message&quot;);
+<br />
+//Prepare you post parameters<br />
+StringBuilder sbPostData = new StringBuilder();<br />
+sbPostData.AppendFormat(&quot;authkey={0}&quot;, authKey);<br />
+sbPostData.AppendFormat(&quot;&amp;mobiles={0}&quot;, mobileNumber);<br />
+sbPostData.AppendFormat(&quot;&amp;message={0}&quot;, message);<br />
+sbPostData.AppendFormat(&quot;&amp;sender={0}&quot;, senderId);<br />
+sbPostData.AppendFormat(&quot;&amp;route={0}&quot;, &quot;default&quot;);
+<br />
+try<br />
+{<br />
+    //Call Send SMS API<br />
+    string sendSMSUri = &quot;https://control.msg91.com/api/sendhttp.php&quot;;
+    //Create HTTPWebrequest<br />
+    HttpWebRequest httpWReq = (HttpWebRequest)WebRequest.Create(sendSMSUri);
+    //Prepare and Add URL Encoded data<br />
+    UTF8Encoding encoding = new UTF8Encoding();<br />
+    byte[] data = encoding.GetBytes(sbPostData.ToString());
+    //Specify post method<br />
+    httpWReq.Method = &quot;POST&quot;;<br />
+    httpWReq.ContentType = &quot;application/x-www-form-urlencoded&quot;;<br />
+    httpWReq.ContentLength = data.Length;
+    using (Stream stream = httpWReq.GetRequestStream())<br />
+    {<br />
+    	stream.Write(data, 0, data.Length);<br />
+    }
+    //Get the response<br />
+    HttpWebResponse response = (HttpWebResponse)httpWReq.GetResponse();<br />
+    StreamReader reader = new StreamReader(response.GetResponseStream());<br />
+    string responseString = reader.ReadToEnd();<br />
+
+    //Close the response<br />
+    reader.Close();<br />
+    response.Close();<br />
+}<br />
+catch (SystemException ex)<br />
+{<br />
+	MessageBox.Show(ex.Message.ToString());<br />
+} 
+</pre>
+</div>
+<!-- end of c -->
+
+
+<div id="windows8" class="tab-pane fade">
+<pre class="editor" id="windows8Editor">
+try<br />
+{<br />
+    string strResult = &quot;&quot;;
+    //Prepare you post parameters<br />
+    var postValues = new List&lt;KeyValuePair&lt;string, string&gt;&gt;();
+    //Your authentication key<br />
+    postValues.Add(new KeyValuePair&lt;string, string&gt;(&quot;authkey&quot;, &quot;YourAuthKey&quot;));
+    //Multiple mobiles numbers separated by comma<br />
+    postValues.Add(new KeyValuePair&lt;string, string&gt;(&quot;mobiles&quot;, &quot;9999999&quot;));
+    //Sender ID,While using route4 sender id should be 6 characters long.<br />
+    postValues.Add(new KeyValuePair&lt;string, string&gt;(&quot;sender&quot;, &quot;102234&quot;));
+    //Your message to send, Add URL encoding here.<br />
+    string message = HttpUtility.UrlEncode(&quot;Test message&quot;);<br />
+    postValues.Add(new KeyValuePair&lt;string, string&gt;(&quot;message&quot;, message));
+    //Select route<br />
+    postValues.Add(new KeyValuePair&lt;string, string&gt;(&quot;route&quot;,&quot;default&quot;));
+    <br />
+    //Prepare API to send SMS<br />
+    Uri requesturl = new Uri(&quot;https://control.msg91.com/api/sendhttp.php&quot;);
+    //create httpclient request<br />
+    var httpClient = new HttpClient();<br />
+    var httpContent = new HttpRequestMessage(HttpMethod.Post, requesturl);
+    httpContent.Headers.ExpectContinue = false;
+    httpContent.Content = new FormUrlEncodedContent(postValues);
+    HttpResponseMessage response = await httpClient.SendAsync(httpContent);
+    <br />
+    //Get response<br />
+    var result = await response.Content.ReadAsStringAsync();
+    strResult = result.ToString();
+    response.Dispose();<br />
+    httpClient.Dispose();<br />
+    httpContent.Dispose();<br />
+}<br />
+catch (Exception ex)<br />
+{<br />
+	throw ex;<br />
+}<br />
+</pre>
+</div><!-- end of windows8 -->
+
+
+<div id="android" class="tab-pane fade">
+<pre class="editor" id="androidEditor">
+//Your authentication key<br />
+String authkey = &quot;YourAuthKey&quot;;
+//Multiple mobiles numbers separated by comma<br />
+String mobiles = &quot;9999999&quot;;
+//Sender ID,While using route4 sender id should be 6 characters long.<br />
+String senderId = &quot;102234&quot;;
+//Your message to send, Add URL encoding here.<br />
+String message = &quot;Test message&quot;;
+//define route<br />
+String route=&quot;default&quot;;
+<br />
+URLConnection myURLConnection=null;<br />
+URL myURL=null;<br />
+BufferedReader reader=null;
+<br />
+//encoding message <br />
+String encoded_message=URLEncoder.encode(message);
+<br />
+//Send SMS API<br />
+String mainUrl=&quot;https://control.msg91.com/api/sendhttp.php?&quot;;
+<br />
+//Prepare parameter string <br />
+StringBuilder sbPostData= new StringBuilder(mainUrl);<br />
+sbPostData.append(&quot;authkey=&quot;+authkey); <br />
+sbPostData.append(&quot;&amp;mobiles=&quot;+mobiles);<br />
+sbPostData.append(&quot;&amp;message=&quot;+encoded_message);<br />
+sbPostData.append(&quot;&amp;route=&quot;+route);<br />
+sbPostData.append(&quot;&amp;sender=&quot;+senderId);<br />
+<br />
+//final string<br />
+mainUrl = sbPostData.toString();
+try<br />
+{<br />
+    //prepare connection<br />
+    myURL = new URL(mainUrl);<br />
+    myURLConnection = myURL.openConnection();<br />
+    myURLConnection.connect();<br />
+    reader= new BufferedReader(new InputStreamReader(myURLConnection.getInputStream()));<br />
+    <br />
+    //reading response <br />
+    String response;<br />
+    while ((response = reader.readLine()) != null) 
+    //print response <br />
+    Log.d(&quot;RESPONSE&quot;, &quot;&quot;+response);<br />
+    <br />
+    //finally close connection<br />
+    reader.close();
+} <br />
+catch (IOException e) 
+{ <br />
+	e.printStackTrace();<br />
+} 
+</pre>
+</div><!-- end of android -->
+
+
+
+<div id="ios" class="tab-pane fade">
+<pre class="editor" id="iosEditor">
+//Create Objects
+NSMutableData * responseData;
+NSURLConnection * connection;<br />
+<br />
+// In your viewDidLoad method add this lines
+-(void)viewDidLoad
+{
+    [super viewDidLoad]; 
+    //Your authentication key
+    NSString * authkey = @&quot;YourAuthKey&quot;;
+    //Multiple mobiles numbers separated by comma
+    NSString * mobiles = @&quot;9999999&quot;; 
+    //Sender ID,While using route4 sender id should be 6 characters long.
+    NSString * senderId = @&quot;102234&quot;;
+    //Your message to send, Add URL encoding here.
+    NSString * message = @&quot;Test message&quot;;
+    //define route
+    NSString * route = @&quot;default&quot;;
+    <br />
+    // Prepare your url to send sms with this parameters.
+    NSString * url = [[NSString stringWithFormat:@&quot;https://control.msg91.com/api/sendhttp.php?authkey=%@&amp;mobiles=%@&amp;message=%@&amp;sender=%@&amp;route=%@&quot;, authkey, mobiles, message, senderId, route] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSURLRequest * request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+    connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+}
+<br />
+// implement URLConnection Delegate Methods as follow
+-(void) connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
+{
+	//Get response data
+    responseData = [NSMutableData data];
+} 
+<br />
+-(void) connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+	[responseData appendData:data];
+}
+<br />
+-(void) connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@&quot;Error&quot; message:error.localizedDescription delegate:self cancelButtonTitle:nil otherButtonTitles:@&quot;OK&quot;, nil];
+    [alert show];
+}
+<br />
+-(void) connectionDidFinishLoading:(NSURLConnection *)connection
+{
+    // Get response data in NSString.
+    NSString * responceStr = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+}
+</pre>
+</div><!-- end of ios -->
+
+
+<div id="vb6" class="tab-pane fade">
+<pre class="editor" id="vb6Editor">
+Private Sub Command1_Click()
+    Dim DataToSend As String
+    Dim objXML As Object
+    Dim message As String
+    Dim authKey As String
+    Dim mobiles As String
+    Dim sender As String
+    Dim route As String
+    Dim URL As String
+<br />
+'Set these variables<br />
+authKey = &quot;Your auth key&quot;;
+<br />
+mobiles  = &quot;9999999999&quot;;
+<br />
+'Sender ID,While using route4 sender id should be 6 characters long.
+sender = &quot;TESTIN&quot;; 
+<br />
+' this url encode function may not work fully functional.
+<!--'demo message "rahul test=using  &  VB sample code o&objXML As Object    Dim message ()%##@@As Stri#@ng"-->
+message = URLEncode(" Your message ")
+<br />
+'Define route
+route = "default" 
+' do not use https 
+URL = "https://control.msg91.com/api/sendhttp.php?" 
+ <br />
+Set objXML = CreateObject("Microsoft.XMLHTTP")
+objXML.Open "POST", URL , False
+objXML.setRequestHeader "Content-Type", "application/x-www-form-urlencoded"
+    
+objXML.send "authkey=" + authKey + "&mobiles=" + mobiles + "&message=" + message + "&sender=" + sender + "&route=" + route
+<br />
+ If Len(objXML.responseText) > 0 Then
+        MsgBox objXML.responseText
+        
+ End If
+     
+End Sub
+
+Function URLEncode(ByVal Text As String) As String
+    Dim i As Integer
+    Dim acode As Integer
+    Dim char As String
+    
+    URLEncode = Text
+    
+    For i = Len(URLEncode) To 1 Step -1
+        acode = Asc(Mid$(URLEncode, i, 1))
+        Select Case acode
+            Case 48 To 57, 65 To 90, 97 To 122
+                ' don't touch alphanumeric chars
+            Case 32
+                ' replace space with "+"
+                Mid$(URLEncode, i, 1) = "+"
+            Case Else
+                ' replace punctuation chars with "%hex"
+                URLEncode = Left$(URLEncode, i - 1) & "%" & Hex$(acode) & Mid$ _
+                    (URLEncode, i + 1)
+        End Select
+    Next
+    
+End Function
+</pre>
+</div><!-- end of vb6 -->
+
+
+<div id="javaxml" class="tab-pane fade">
+<pre class="editor" id="javaxmlEditor">
+import java.io.*;
+import java.net.URL;
+import java.net.HttpURLConnection;
+
+class Functions
+{
+
+	public static String hitUrl(String urlToHit, String param)
+    	{
+        	try
+        	{
+                URL url = new URL(urlToHit);
+                HttpURLConnection http = (HttpURLConnection)url.openConnection();
+                http.setDoOutput(true);
+                http.setDoInput(true);
+                http.setRequestMethod("POST");
+
+                DataOutputStream wr = new DataOutputStream(http.getOutputStream());
+                wr.writeBytes(param);
+                wr.flush();
+                wr.close();
+                http.disconnect();	
+  
+
+                BufferedReader in = new BufferedReader(new InputStreamReader(http.getInputStream()));
+                String inputLine;
+                if ((inputLine = in.readLine()) != null)
+                {
+                        in.close();
+                        return inputLine;
+                }
+                else
+                {
+                        in.close();
+                        return "-1";
+                }
+
+            }
+            catch(Exception e)
+            {
+                System.out.println("Exception Caught..!!!");
+                e.printStackTrace();
+                return "-2";
+            }
+        }
+}
+
+public class HitXmlData 
+{
+	public static void main(String[] args) 
+	{
+    		String strUrl = "https://control.msg91.com/api/postsms.php";
+    		String xmlData = "data=
+                                    &lt;MESSAGE&gt;
+                                        &lt;AUTHKEY&gt;YOURAUTHKEY&lt;/AUTHKEY&gt;
+                                        &lt;ROUTE&gt;default&lt;/ROUTE&gt;
+                                        &lt;SMS TEXT='message1 testing' FROM='AAAAAA'&gt;
+                                            &lt;ADDRESS TO='9999999990'&gt;&lt;/ADDRESS&gt;
+                                        &lt;/SMS&gt;
+                                    &lt;/MESSAGE&gt;"
+
+		String output = Functions.hitUrl(strUrl, xmlData);
+		System.out.println("Output is: "+output);
+
+	}
+
+}
+
+</pre>
+</div>
+ <!-- end of php -->
+</div> <!-- end of tab wrapper content -->
+</div>
+</div>
+
+                <img id="banImg" src="https://d250qlh00f3d5m.cloudfront.net/developer-banner.jpg" alt="Bulk SMS, " >
+                <div class="overlay"></div>
+            </div>
+        </section>
+    	
+<!-- banner section end here -->
+
+<!-- section start here -->
+        <section id="robust" class="cmnSecPad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 animatedParent" data-sequence="500">
+                        <h3 class="animated lightSpeedInLeft" data-id="1">Secure, Robust and effortlessly easy APIs <br/>to send and track SMS instantly. </h3>
+                        <figure class="animated growIn slower" data-id="2">
+                            <p class="grey-60">AND 5000 SMS FREE</p>
+                            <p class="grey-50">FOR EVERY DEVELOPER</p>
+                            <div class="alC" style="margin-top:65px">
+                              <a href="signup.php" class="btn btn-large btn-nblue">Check Now</a>
+                            </div> 
+                        </figure>
+                    </div>
+                </div> 
+              </div>
+        </section>
+<!-- section end here --> 
+           
+<!-- section start here -->
+        <section id="features" class="cmnSecPad BlueBg dark animatedParent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="biggerHead animated lightSpeedInRight" style="margin:0 0 100px 0">Even in drafting the SMS</div>
+                    </div>
+
+                    <div class="row feature-sec  oth">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="icon-holder animated bounceIn">
+                                <span class="devel-oth devel-dev"></span>
+                            </div>
+                            <h4 class="animated bounceInDown">For developers</h4>
+                            <p class="animated bounceInUp">Easy to integrate APIs.<br/>Don't have development team?<br/>Ask us to integrate our APIs</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="icon-holder  animated bounceIn">
+                                <span class="devel-oth devel-er"></span>
+                            </div>
+                            <h4 class="animated bounceInDown">Engineered for reliability</h4>
+                            <p class="animated bounceInUp">Multi-route technology<br/>to deliver your SMS anywhere,<br/>anytime. Anyhow!</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="icon-holder  animated bounceIn">
+                                <span class="devel-oth devel-sol"></span>
+                            </div>
+                            <h4 class="animated bounceInDown">Our problem-solvers</h4>
+                            <p class="animated bounceInUp">Contact our support super-heroes <br/>24*7 in case of any query, <br/>confusion or problem. </p>
+                        </div>
+                    </div> 
+                    <!-- end of row -->
+                </div>
+            </div>
+        </section> 
+ <!-- section end here -->   	
+        
+ <!-- section start here -->       
+        <section class=" animatedParent cmnSecPad">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                  <div class="quotes innerfade" id="quotes1">
+          							     <div class="quote" style="display: none;">
+              							  <blockquote><p>"Its been a long term business relationship with MSG91 and we have experienced good service and some times bad as well, but I haven't find any reason to switch to any other provider. And for being with MSG the biggest reason is that "they keep on changing their selves" and maintained the uniqueness."</p></blockquote>
+                               			 <cite> — Rakesh Dwivedi, <strong>NRT Inc.</strong></cite>
+                            </div>
+                              <div class="quote" style="display: none;">
+                                  <blockquote><p>"We are very happy with the services."</p></blockquote>
+                                  <cite> — Sudhir Sharma, <strong>Punjab National Bank</strong></cite>
+                              </div>
+          
+                              <div class="quote" style="display: none;">
+                                  <blockquote><p>"Very useful tool for providing reminders and recommendations to clients."</p></blockquote>
+                                  <cite> — Sumit Awasthi, <strong>Icici lombard</strong> </cite>
+                              </div>
+          
+                              <div class="quote" style="display: block;">
+                                  <blockquote><p>"Technical support of MSG91 are quite good. All the best for the future."</p></blockquote>
+                                  <cite> — Bhaskar Chandra, <strong>IT Visual Solutions Unit of IVS Group of Business</strong></cite>
+                              </div>
+          
+                              <div class="quote" style="display: none;">
+                                  <blockquote><p>"Our experience with MSG91 has been great. They have wonderful interface, assured delivery mechanism and above all the quality and timely support. Being a software company, we have used many other SMS services company but the kind of personalized support MSG91 team has given is major differentiator according to us. Keep it up Team MSG91."</p></blockquote>
+                                  <cite> — Hitesh Trivedi, <strong>Quicksoft Services</strong></cite>
+                              </div>
+                </div>
+                  </div>
+                </div> 
+            </div>
+        </section>
+<!-- section end here -->
+        
+<!-- section start here -->        
+        <section class="liteGreyBg animatedParent code" style="padding:100px 0">
+            <div class="container">
+                <div class="row code-content">
+                    <div class="col-md-6 col-xs-12">
+                    	<div class="small-container">
+                           <h4>Powerful sending infrastructure</h4>
+                           <p> Easy API integration and a simple, HTTP or JSON/XML API enables your APP with SMS whether you are sending 
+                            transactional or bulk SMS. Scale quickly, whether it's a matter of 10 SMS or 10 million SMS.</p>
+                        </div>    
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                       <div style="opacity: 1;" class="img-code-editor js-fadein">
+                       		<div class="top-nav">
+                        		<span class="red"></span>
+							    <span class="yellow"></span>
+                           		<span class="green"></span>
+                        	</div>
+                       	  <pre class="prettyprint lang-bsh prettyprinted" style="">
+                          <span class="pln">POST </span><span class="pun">/</span><span class="pln">messages
+                          &nbsp; from </span><span class="pun">=</span><span class="pln"> </span><span class="str">'App &lt;me@myapp.io&gt;'</span><span class="pln">
+                          &nbsp; to </span><span class="pun">=</span><span class="pln"> </span><span class="str">'bob@gmail.com'</span><span class="pln">
+                          &nbsp; subject </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Hello'</span><span class="pln">
+                          &nbsp; text </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Welcome to our amazing app!'</span><span class="pln">
+                          &nbsp; html </span><span class="pun">=</span><span class="pln"> </span><span class="str">'&lt;p&gt;Welcome to our amazing app!&lt;/p&gt;'</span></pre></div>
+                    </div> 
+                </div> 
+            </div>
+        </section>
+<!-- section end here -->       
+        
+<!-- section start here -->        
+        <section class="witBg animatedParent code" style="padding:100px 0">
+            <div class="container">
+                <div class="row grey-code-content">
+                    <div class="col-md-6 col-xs-12">
+                    	<div class="small-container">
+                           <h4>All validation and security checks done</h4>
+                           <p> Easy API integration and a simple, HTTP or JSON/XML API
+                                enables your APP with SMS whether you are sending
+                                transactional or bulk SMS. Scale quickly, whether it's a
+                                matter of 10 SMS or 10 million SMS.</p>
+                        </div>    
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                       <div style="opacity: 1;" class="img-code-editor js-fadein">
+                       		<div class="top-nav">
+                        		<span class="red"></span>
+							    <span class="yellow"></span>
+                           		<span class="green"></span>
+                        	</div>
+                       	  <pre class="prettyprint lang-bsh prettyprinted" style="">
+                          <span class="pln">POST </span><span class="pun">/</span><span class="pln">messages
+                          &nbsp; from </span><span class="pun">=</span><span class="pln"> </span><span class="str">'App &lt;me@myapp.io&gt;'</span><span class="pln">
+                          &nbsp; to </span><span class="pun">=</span><span class="pln"> </span><span class="str">'bob@gmail.com'</span><span class="pln">
+                          &nbsp; subject </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Hello'</span><span class="pln">
+                          &nbsp; text </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Welcome to our amazing app!'</span><span class="pln">
+                          &nbsp; html </span><span class="pun">=</span><span class="pln"> </span><span class="str">'&lt;p&gt;Welcome to our amazing app!&lt;/p&gt;'</span></pre></div>
+                    </div> 
+                </div> 
+            </div>
+        </section> 
+<!-- section end here -->
+
+<!-- section start here -->        
+         <section class="liteGreyBg animatedParent cmnSecPad" style="padding:100px 0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                         
+                        <div class="quotes innerfade" id="quotes2" style="">
+  							  <div class="quote" style="display: none;">
+      							  <blockquote><p>"MSG91 has one of the best customer support team. Always ready to help. But the best part is that you done require their assistance at all, the services they provide are seamless and very easy to use."</p></blockquote>
+                       			 <cite> — Shamvil Raza, <strong>GDG VIT Vellore</strong></cite>
+                    </div>
+                              <div class="quote" style="display: none;">
+                                  <blockquote><p>"I am very pleased with the performance you have provided us,  We appreciate the assistance and excellent support."</p></blockquote>
+                                  <cite> — Sravan Kumar, <strong>3 Spears Technologies </strong></cite>
+                              </div>
+          
+                              <div class="quote" style="display: none;">
+                                  <blockquote><p>"I was using other service before. But the day I reached to MSG91, I am moving nowhere else anymore because I trust the service and satisfy with it. It does what I want exactly. The simplicity and support are awesome. Thank you."</p></blockquote>
+                                  <cite> — Vanlalruata Hnamte, <strong>ZoSoft Network</strong> </cite>
+                              </div>
+          
+                              <div class="quote" style="display: block;">
+                                  <blockquote><p>"We have been using the services of MSG91 for over three years, primarily to text information messages to its members. We are very satisfied with the services of MSG91 since the application is very user friendly, the rates being very reasonable, prompt delivery of the message and availability of reports. Wishing MSG91 all success. "</p></blockquote>
+                                  <cite> — Cdr Reginald Daniel, <strong>Navy Foundation Kerala Charter</strong></cite>
+                              </div>
+          
+                              <div class="quote" style="display: none;">
+                                  <blockquote><p>"Good and simple service; API is very good and works solidly. This is the way services should work - excellent job. Keep it up!"</p></blockquote>
+                                  <cite> — Vikram Vijayaraghavan, <strong>RMT International School</strong></cite>
+                              </div>
+                </div>
+                        
+                
+                    </div>
+                </div> 
+            </div>
+        </section>
+<!-- section end here -->
+
+<!-- section start here -->
+        <section class="witBg animatedParent code" style="padding:100px 0">
+            <div class="container">
+                <div class="row code-content">
+                    <div class="col-md-6 col-xs-12">
+                    	<div class="small-container">
+                           <h4>All validation and security checks do</h4>
+                           <p>Easy API integration and a simple, HTTP or JSON/XML API 
+                              enables your APP with SMS whether you are sending transactional
+                              or bulk SMS. Scale quickly, whether it's a matter of 10 SMS or 10 
+                              million SMS.</p>
+                        </div>    
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                       <div style="opacity: 1;" class="img-code-editor js-fadein">
+                       		<div class="top-nav">
+                        		<span class="red"></span>
+							    <span class="yellow"></span>
+                           		<span class="green"></span>
+                        	</div>
+                       	  <pre class="prettyprint lang-bsh prettyprinted" style="">
+                          <span class="pln">POST </span><span class="pun">/</span><span class="pln">messages
+                          &nbsp; from </span><span class="pun">=</span><span class="pln"> </span><span class="str">'App &lt;me@myapp.io&gt;'</span><span class="pln">
+                          &nbsp; to </span><span class="pun">=</span><span class="pln"> </span><span class="str">'bob@gmail.com'</span><span class="pln">
+                          &nbsp; subject </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Hello'</span><span class="pln">
+                          &nbsp; text </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Welcome to our amazing app!'</span><span class="pln">
+                          &nbsp; html </span><span class="pun">=</span><span class="pln"> </span><span class="str">'&lt;p&gt;Welcome to our amazing app!&lt;/p&gt;'</span></pre></div>
+                    </div> 
+                </div> 
+            </div>
+        </section> 
+<!-- section end here -->
+
+<!-- section start here -->        
+        <section class="liteGreyBg animatedParent code" style="padding:100px 0">
+            <div class="container">
+                <div class="row grey-code-content">
+                    <div class="col-md-6 col-xs-12">
+                    	<div class="small-container">
+                           <h4>Super cool phonebook</h4>
+                           <p>Searchable logs means you always know what is happening to your 
+                              SMS, whiletags make it easy to report on your data - and all that - 
+                              via our beautiful panel and webhooks.</p>
+                        </div>    
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                       <div style="opacity: 1;" class="img-code-editor js-fadein">
+                       		<div class="top-nav">
+                        		<span class="red"></span>
+							    <span class="yellow"></span>
+                           		<span class="green"></span>
+                        	</div>
+                       	  <pre class="prettyprint lang-bsh prettyprinted" style="">
+                          <span class="pln">POST </span><span class="pun">/</span><span class="pln">messages
+                          &nbsp; from </span><span class="pun">=</span><span class="pln"> </span><span class="str">'App &lt;me@myapp.io&gt;'</span><span class="pln">
+                          &nbsp; to </span><span class="pun">=</span><span class="pln"> </span><span class="str">'bob@gmail.com'</span><span class="pln">
+                          &nbsp; subject </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Hello'</span><span class="pln">
+                          &nbsp; text </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Welcome to our amazing app!'</span><span class="pln">
+                          &nbsp; html </span><span class="pun">=</span><span class="pln"> </span><span class="str">'&lt;p&gt;Welcome to our amazing app!&lt;/p&gt;'</span></pre></div>
+                    </div> 
+                </div> 
+            </div>
+        </section>
+<!-- section end here -->  
+      
+<!-- section start here -->       
+        <section class="witBg animatedParent money" style="padding:100px 0 100px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <p class="dark-50">Developers who trust us-</p>
+                    </div>
+                </div> 
+                <div class="row clntWrap">
+                    <div class="col-md-3 col-sm-12">
+                        <span class="devel_clnt_logo mobi"></span>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <span class="devel_clnt_logo trutech"></span>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <span class="devel_clnt_logo ntpc"></span>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <span class="devel_clnt_logo sanghi"></span>
+                    </div>
+                  
+               </div>
+            </div>
+        </section>    
+        <section class="liteGreyBg animatedParent money" style="padding:100px 0 100px">    
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <p class="dark-50">Your app with SMS in minutes</p>
+                        <h3>Our API makes integrating SMS quick & easy.</h3>
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="sms-min"></span>
+                    </div>
+                </div>
+            </div>
+        </section>    
+        <section class="drkBluBg animatedParent money" style="padding:100px 0 100px">    
+            <div class="container">
+                <div class="row">
+                      <div class="col-lg-12 col-sm-12">
+                        <p class="white-50">Want to see your SMS delivered in seconds?</p>
+                     </div>
+                </div>
+                <div class="row alC" style="margin-top:65px;"> 
+                  <a href="signup.php" class="btn btn-large btn-white">Try MSG91 now</a>
+                </div>
+            </div>
+        </section>
+<!-- section end here -->   
+    
+<!-- Footer section start here -->
+        <section id="footer" style="padding-top:50px;">    
+    <section class="container">
+        <div class="row">
+            <aside class="col-md-2 col-sm-12">
+                <div class="colInner">
+                    <h4>Discover</h4>
+                    <h5><a href="about">About us</a></h5>
+                    <h5><a href="features.1">Features</a></h5>
+                    <h5 ><a href="pricing/index.html">Pricing</a></h5>
+                    <!--<h5><a href="/case-studies">Case Study</a></h5>-->
+                    <h5><a href="http://blog.msg91.com">Blog</a></h5>
+                    <!-- $protocol declared in header.php -->
+                    <h5><a href="http://api.msg91.com/apidoc">API</a></h5>
+                    <h5><a href="http://help.msg91.com/">Help</a></h5>
+                </div>
+            </aside>
+
+            <aside class="col-md-2 col-sm-12">
+                <div class="colInner">
+                    <h4>Industries</h4>
+                    <h5><a href="startups.1">Startups</a></h5>
+                    <h5><a href="sms-in-education">Education</a></h5>
+                    <h5><a href="sms-for-alerts#clock">Stock Market</a></h5>
+                    <h5><a href="internal-communication/index.html">Internal Communication</a></h5>
+                    <h5><a href="sms-for-developers">Developers</a></h5>
+                </div>
+            </aside>
+
+            <aside class="col-md-2 col-sm-12">
+                <div class="colInner">
+                    <h4>Services</h4>
+                    <h5><a href="admin-panel/index.html">Admin Panel on rent</a></h5>
+                    <h5><a href="sms-reseller/index.html">SMS Reseller</a></h5>
+                    <h5><a href="longcode">Long Code</a></h5>
+                    <!--<h5><a href="/voice-sms">Voice SMS</a></h5>-->
+                    <h5><a href="transactional-sms">Transactional SMS</a></h5>
+                    <h5><a href="http://sendotp.msg91.com/">SendOTP</a></h5>
+                </div>
+            </aside>
+
+            <aside class="col-md-2 col-sm-12">
+                <div class="colInner">
+                    <h4>Tools &amp; Add-ons</h4>                    
+                    <h5><a href="sms-for-spreadsheets">Excel plugin</a></h5>                    
+                    <h5><a href="sms-for-spreadsheets">Google spreadsheet</a></h5>
+                    <h5><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html">Magento plugin</a></h5>                    
+                    <h5><a href="cc2sms/index.html">CC2SMS</a></h5>
+                    <h5><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></h5>
+                    <br/><br/>
+                    <h5>Download Apps</h5>
+                     <ul class="dload-app clearfix sc">
+                        <li id="apple"><a target="_blank" href="https://itunes.apple.com/us/app/msg91/id981827687" class="app apple"></a></li>
+                        <li id="android"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.msg91.android" class="app android"></a></li>
+                        <li id="windows"><a target="_blank" href="http://www.windowsphone.com/en-in/store/app/msg91/c91883dc-2f72-4586-b409-25cb111ff72d" class="app windows"></a></li>
+                    </ul>
+                </div>
+            </aside> 
+
+            <aside class="col-md-2 col-sm-12">
+                <div class="colInner">
+                    <h4>Stay Connected</h4>
+                    <h5 ><a href="contact">Contact us</a></h5>
+                    <h5><a target="_blank" href="http://walkover.in/currentopening.php">We are hiring!</a></h5>
+                    <br/><br/>                
+                    <h5>Find us on</h5>
+                    <ul class="social clearfix sc">
+                        <li id="fb"><a target="_blank" rel="nofollow" href="https://www.facebook.com/msg91"><i class="ic-32 fb"></i></a></li>
+                        <li id="gp"><a target="_blank" rel="nofollow" href="https://plus.google.com/106160020771001486131"><i class="ic-32 gp"></i></a></li>
+                        <li id="tw"><a target="_blank" rel="nofollow" href="https://twitter.com/msg91com"><i class="ic-32 tw"></i></a></li>
+                        <li id="in" class="last"><a target="_blank" rel="nofollow" href="http://www.linkedin.com/company/msg91/"><i class="ic-32 in"></i></a></li>
+                    </ul>
+
+
+                </div>
+            </aside>
+        </div>
+    </section><!--/end of first row-->
+
+    <div id="clients" class="cmnSecPad footer-mid" style="padding-bottom:50px;">
+        <div class="container">
+            <div class="ftr-subhead">Our Associations</div>
+            <div class="row">
+                <div class="col-md-2 col-sm-12">                                
+                    <div class="cic nasscom"></div>                                 
+                </div>
+                <div class="col-md-2 col-sm-12">                
+                    <div class="cic cebit"></div>                                   
+                </div>
+                <div class="col-md-2 col-sm-12">                
+                    <div class="cic findia"></div>                                    
+                </div>
+                <div class="col-md-2 col-sm-12">                
+                    <div class="cic iamal"></div>                                    
+                </div>
+                <div class="col-md-2 col-sm-12">                
+                    <div class="cic gmic"></div>                                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/end of foooter-->            <section id="seosec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="seosec">
+                                <article>
+                                    <strong>SMS API</strong><br> Extend your messaging needs with the provided set of our sms API. With MSG91, we aim to make messaging easy and therefore, we provide our very own bulk sms api functionality so that the user need not get stuck in any situation and can send SMS from any and everywhere. Other than this, you can get our sms API's for each and every purpose i.e. text message api, send sms api etc. 
+                                </article>
+                                <article>
+                                    <strong>Variety of MSG91's API's   </strong><br> MSG91 provides its users with a wide range of bulk sms API's which in turn help the users to avoid unnecessary coding and struggling. Some of our distinct API's serve the purpose for different types of SMS such as text, voice, virtual numbers etc.Discover appropriate Bulk sms API for your needs and utilise messaging services to its best.
+                                </article>
+                                <article>
+                                    <strong>What makes us different?</strong><br> All your needs are answered at a single platform, MSG91. We provide our users with api's for each and every aspect of the panel. Integrate distinct API sample codes as per your choice of programming language. You can send sms using php, JAVA, C#, Python etc. Also you can easily send bulk sms in case of heavy traffic via our XML api. Other than this, our api's can also be integrated in your mobile as well as desktop apps.
+                                </article>
+                            </div>    
+                    </div>
+                    </div>
+                </div>
+            </section>
+        <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="sub-footer">MSG91 © 2008-2016 MSG91 | All Rights Reserved. | <a href="terms">Terms of use</a> | <a href="privacy">Privacy policy</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer><!--/end of foooter-->
+<script type="text/javascript" src="https://d3rtqaterrbel4.cloudfront.net/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script type="text/javascript" src="https://d3rtqaterrbel4.cloudfront.net/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://d3rtqaterrbel4.cloudfront.net/jquery.selectric.js"></script>
+<script type="text/javascript" src='js/newScript2015.js'></script>
+<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWQZXP"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MWQZXP');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+
+$(function(){
+
+    //$("img.lazy").lazyload({ effect : "fadeIn"});
+    
+
+    setTimeout(function(){
+        setHeight();
+    },400) 
+});
+</script>
+<script type="text/javascript">
+    function urlParam(name) {
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if (results)
+            return results[1];
+        else
+            return false;
+    }
+
+    var utmObj = {};
+
+    (urlParam('utm_medium')) ? utmObj['utm_medium'] = urlParam('utm_medium') : '';
+    (urlParam('utm_source')) ? utmObj['utm_source'] = urlParam('utm_source') : '';
+    (urlParam('utm_campaign')) ? utmObj['utm_campaign'] = urlParam('utm_campaign') : '';
+    (urlParam('utm_term')) ? utmObj['utm_term'] = urlParam('utm_term') : '';
+    (urlParam('utm_content')) ? utmObj['utm_content'] = urlParam('utm_content') : '';
+    
+    var len = $.map(utmObj, function(n, i) { return i; }).length;
+
+    if (len)
+    {
+        // Put the object into storage
+        localStorage.setItem('utmParams', JSON.stringify(utmObj));
+    }
+    
+    console.log(JSON.parse(localStorage.getItem('utmParams')));
+</script><!-- Footer section end here -->
+
+</div>
+<!-- main section end here -->
+
+
+<script type="text/javascript">
+	var whichToShow1 = Math.floor(Math.random() * $('#quotes1 .quote').length);
+	$('#quotes1 .quote').hide().eq(whichToShow1).fadeIn(1000);
+	
+	var whichToShow2 = Math.floor(Math.random() * $('#quotes2 .quote').length);
+	$('#quotes2 .quote').hide().eq(whichToShow2).fadeIn(1000);
+	
+$('.tab-pane').not('.active').hide();
+	$('#apitab a').click(function (e) {
+	  	e.preventDefault()
+		$('#apitab li') .removeClass('active');
+	  	$(this).parent('li').addClass('active');
+	  	var id = $(this).attr('href');
+	  	
+		if(id === '#run'){
+	  		alert('bingo you are trying to run these code hahahahaha!')
+	  	}
+	  	else{
+	  		$('.tab-pane').hide().removeClass('in');
+	  		$(id).show().addClass('in');
+	  	}	  
+	})
+</script>
+<script src="js/acelib/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+$(document).ready(function() {
+        //init get editor
+        var getEditor = ace.edit("getEditor");
+        getEditor.setTheme("ace/theme/twilight");
+        getEditor.getSession().setMode("ace/mode/javascript");
+
+
+        //init php editor
+        var phpEditor = ace.edit("phpEditor");
+        phpEditor.setTheme("ace/theme/twilight");
+        phpEditor.getSession().setMode("ace/mode/php");
+
+        //init java editor
+        var javaEditor = ace.edit("javaEditor");
+        javaEditor.setTheme("ace/theme/twilight");
+        javaEditor.getSession().setMode("ace/mode/java");
+
+        //init xml editor
+        var xmlEditor = ace.edit("xmlEditor");
+        xmlEditor.setTheme("ace/theme/twilight");
+        xmlEditor.getSession().setMode("ace/mode/xml");
+
+        //init json editor
+        var jsonEditor = ace.edit("jsonEditor");
+        jsonEditor.setTheme("ace/theme/twilight");
+        jsonEditor.getSession().setMode("ace/mode/json");
+
+        //python json editor
+        var jsonEditor = ace.edit("pythonEditor");
+        jsonEditor.setTheme("ace/theme/twilight");
+        jsonEditor.getSession().setMode("ace/mode/php");
+
+        //python json editor
+        var jsonEditor = ace.edit("cEditor");
+        jsonEditor.setTheme("ace/theme/twilight");
+        jsonEditor.getSession().setMode("ace/mode/csharp");
+
+        var jsonEditor = ace.edit("windows8Editor");
+        jsonEditor.setTheme("ace/theme/twilight");
+        jsonEditor.getSession().setMode("ace/mode/java");
+
+        var jsonEditor = ace.edit("androidEditor");
+        jsonEditor.setTheme("ace/theme/twilight");
+        jsonEditor.getSession().setMode("ace/mode/java");
+
+        var jsonEditor = ace.edit("iosEditor");
+        jsonEditor.setTheme("ace/theme/twilight");
+        jsonEditor.getSession().setMode("ace/mode/io");
+
+        var jsonEditor = ace.edit("vb6Editor");
+        jsonEditor.setTheme("ace/theme/twilight");
+        jsonEditor.getSession().setMode("ace/mode/vbscript");
+
+        var jsonEditor = ace.edit("javaxmlEditor");
+        jsonEditor.setTheme("ace/theme/twilight");
+        jsonEditor.getSession().setMode("ace/mode/java");
+
+    });
+
+</script>
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 963669542;
+var google_conversion_label = "qoB9CLLM0wQQptzBywM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963669542/?value=1.00&amp;currency_code=INR&amp;label=qoB9CLLM0wQQptzBywM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+(function(d,s,i,r) {
+if (d.getElementById(i)){return;}
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/676631.js';
+e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code --></body>
+</html>

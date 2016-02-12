@@ -1,0 +1,21 @@
+#banner-top{padding:55px 0}
+.redBg,h1 span,h1 span:hover,h3 span,h3 span:hover{color:#fff}
+#wht .two,.red-text,.text-how{font-family:Gotham-Rounded-Medium}
+h1{font-weight:lighter;font-size:2.6em;padding-bottom:60px}
+.redBg .text-how,h2{font-weight:lighter;font-size:2.2em}
+h3{font-size:2em;margin:0}
+h3 span{background-color:#fa736b;cursor:pointer;padding:10px 15px;border-radius:2px}
+h3 span:hover{background-color:#f8564a}
+h4{font-size:1.6em;text-align:left}
+.text-how{text-align:center;display:block;padding:20px 0; font-size: 1.5em;}
+.red-text{color:#fa736b}
+.how{text-align: center;}
+ul.red-text-area{font-size:1.3em;text-align: center; display: inline-block;}
+ul.red-text-area li:first-child{padding-top:0;}
+ul.red-text-area li{padding:10px 0; display: block; border-bottom: 1px solid #e5e5e5;}
+ul.red-text-area li:last-child{margin-bottom:0; border-bottom: none;}
+#wht .two{font-size:2em;margin-top:90px;margin-bottom:70px}
+.smsemail_img{margin-bottom:30px}
+.mail_img{box-shadow:0 0 5px #b5b5b5; margin-top:100px}
+.clntWrap .col-lg-6,.money{text-align:center}
+.redBg{background:#fa736b}

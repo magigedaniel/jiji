@@ -1,0 +1,266 @@
+#banner-top{padding:100px 0;z-index:99}
+h1{line-height:60px;font-weight:lighter;font-size:2.4em}
+#banner h1.white{color:#fff;font-size:3em}
+h1 span{cursor:pointer;padding:2px 15px;background-color:#336e7a;color:#fff}
+h1 span:hover{background-color:#144f5b;color:#fff}
+h2{font-weight:lighter;color:#fff;font-size:2.2em}
+.tbl{display:table;width:100%;height:100%}
+.tbl-td{bottom:142px;left:0;position:absolute;right:0;text-align:center}
+.clntWrap .col-lg-6{text-align:center}
+h3{color:#404054;font-weight:400;font-size:2em;text-align:center;margin-bottom:50px}
+#superfast h3{margin:0 0 15px}
+figure{text-align:center}
+figure img{max-width:100%}
+figure img.stock-1{margin:80px 0}
+.feature-sec{text-align:center}
+.icon-holder{text-align:center;margin:0 auto 20px;height:100px}
+.feature-sec h4{color:#404054;font-size:1.5em;font-weight:300;margin:0 0 10px}
+.feature-sec h4,p.dark-30{font-family:Gotham-Rounded-Medium}
+.green-40,.white-40,p.grey-30,p.grey-50,p.grey-60{font-family:GothamRounded-Bold}
+.bigHead{font-size:2em;font-weight:500;text-align:center}
+.biggerHead{font-size:2.6em;font-weight:lighter;text-align:center}
+.dark .bigHead,.dark .biggerHead,.dark .feature-sec h4,.dark .feature-sec p,.dark h3{color:#fff}
+.feature-sec.oth .icon-holder{height:160px}
+.feature-sec.oth p{color:#ccc;font-size:16px}
+p.grey-30,p.grey-50,p.grey-60{color:#CCC;text-align:center}
+p.grey-60{font-size:60px}
+p.grey-50{font-size:52px}
+p.grey-30{font-size:40px}
+p.dark-30{color:#404054;text-align:center;font-size:32px;padding:68px 0 120px}
+.money{text-align:center}
+.green-20{color:#336e7a;font-size:2em}
+.green-40,.white-40{font-size:2.5em}
+.white-40{color:#fff}
+.greenbg_btn{margin:34px auto;font-family:GothamRounded-Bold}
+.green-40{color:#336e7a}
+.stockBg{background-color:#3f3f54}
+.draft-oth{background:url(https://d250qlh00f3d5m.cloudfront.net/stock/feature-draft.png) no-repeat}
+.draft-oth,.ic-oth{height:160px;display:inline-block}
+.ic-oth.book{background-position:0 0;width:133px}
+.ic-oth.plug{background-position:-148px 0;width:163px}
+.ic-oth.gear{background-position:-326px 0;width:121px}
+.draft-oth.draft-book{background-position:0 0;width:133px}
+.draft-oth.draft-expiry{background-position:-148px 0;width:163px}
+.draft-oth.draft-dlr{background-position:-326px 0;width:121px}
+.clntWrap{margin:0 auto;max-width:880px}
+.stk_clnt_logo{width:300px;height:80px;display:inline-block}
+.stk_clnt_logo.arihant{background-position:0 0}
+.stk_clnt_logo.angel{background-position:300px 0}
+div#experiment{margin-top:75px}
+h2{font-size:1.2em;font-weight:300}
+.mainCnt #banner h1{font-size:1.6em!important;line-height:24px!important;margin-top:0}
+#team .biggerHead{padding-top:100px;}
+#team .subHd{text-align: center; margin-bottom: 40px; margin-top: 10px;}
+.imgOverlay .name{font-weight: bold;}
+.imgOverlay .title{font-size: 12px;}
+
+#colorbox .desWrp{text-align: center;}
+#colorbox .cntWrp{padding: 20px;}
+#colorbox .name{font-weight: bold; margin-top: 10px}
+#colorbox .title{font-size: 13px; color:#777;}
+#colorbox .des{margin-top: 20px; font-size: 14px}
+
+
+.bblTxt{font-family: Gotham-Rounded-Light;}
+
+#banner .inner{position:relative;}
+.aboutusBannerTxt{margin-bottom: 30px;}
+
+#team{background: #fff;}
+
+.row{clear:both;}
+.row.one{margin-bottom: 60px;}
+.testimonial{float:left; text-align: left;}
+.testimonial .txt{line-height: 16px; font-size: 13px;}
+.testimonial .img{float:left;}
+.testimonial .infoTxt{margin-left: 80px; margin-top: 20px;}
+.testimonial img{max-width:70px !important; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; padding:5px; border:1px solid #ccc;}
+.testimonial .name{font-weight: bold;}
+.testimonial .des{font-size: 12px;}
+.testimonial .infoWrp{overflow: hidden;}
+.bikashdash .infoWrp{margin-top: 20px;}
+
+.testimonial.col-md-4.col-xs-12{padding:0 50px; background: url(../images/testimonialpics/quote.png) no-repeat 20px 30px;}
+
+.container.aboutusBanner{position:relative;} 
+.aboutusBanner{text-align: center; font-weight: 100;}
+.aboutusBanner .h2{font-size: 1.5em;}
+.aboutusBanner .h1{font-size: 4.8em;}
+
+.triangle-border {
+    position: relative;
+    padding: 15px;
+    margin: 1em 0 1.5em;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+   
+}
+.triangle-border:before {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:25px; /* controls horizontal position */
+  border-width:13px 10px 0;
+  border-style:solid;
+  border-color:#ddd transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+.triangle-border:after {
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    left: 25px;
+    border-width: 13px 10px 0;
+    border-style: solid;
+    border-color: #fafafa transparent;
+    display: block;
+    width: 0;
+}
+
+#mission{
+    padding:100px 0;
+    background: #fff;
+}
+
+#mission .subHd{text-align: center; font-size: 2em; font-weight: 600;}
+
+.misImg {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   -webkit-column-count: 1;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    1;
+   -moz-column-gap:      0px;
+   column-count:         1;
+   column-gap:           0px;   
+}
+
+.misImg img{
+  width: 100% !important;
+  height: auto !important;
+}
+
+.missionTxt{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;    
+}
+
+
+.photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+
+   -webkit-column-count: 6;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    6;
+   -moz-column-gap:      0px;
+   column-count:         6;
+   column-gap:           0px;
+   height: 830px;
+}
+.photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;  
+}
+
+.imgOverlay{background:rgba(30, 117, 186, 0.80); color:#fff; display: table; text-align: center;}
+.imgOverlay .cnt{display:table-cell; vertical-align: middle;}
+@media (max-width:767px){
+    h1{font-size:1.6em;line-height:45px;padding:0 10px}
+}
+
+@media (max-width: 320px) {
+  .photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  height:1360px;
+  }
+  .aboutusBanner .h1 {font-size: 4em;}
+}
+
+@media (min-width: 321px) and (max-width: 360px){
+  .photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  height:1410px;
+  }
+  .aboutusBanner .h1 {font-size: 4.5em;}
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  height:1700px;
+  }
+}
+
+@media (max-width: 600px) {
+    #colorbox, #cboxWrapper, #cboxContent, #cboxLoadedContent{width:100% !important; height:100% !important;}
+    #cboxClose{display:none;}
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+   .photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  } 
+}
+@media (min-width: 481px) and (max-width: 600px) {.photos {height:1140px;}}
+
+@media (min-width: 601px) and (max-width: 800px) {.photos {height:1510px;}}
+
+@media (min-width: 801px) and (max-width: 1024px) {.photos {height:1940px;}}
+
+@media (min-width: 1025px) and (max-width: 1280px) {.photos {height:510px;}}
+
+@media (min-width: 1281px) and (max-width: 1366px) {.photos {height:650px;}}
+
+@media (min-width: 1367px) and (max-width: 1440px) {.photos {height:685px;}}
+
+@media (min-width: 1441px) and (max-width: 1600px) {.photos {height:830px;}}
+
+@media (min-width: 1601px) and (max-width: 2000px) {.photos {height:930px;}}
+
+/*color box*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow, .imgOverlay{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000; opacity: 0.7; filter: alpha(opacity = 70);}
+#colorbox{outline:0;}    
+#cboxContent{background:#fff; overflow:hidden;}
+.cboxIframe{background:#fff;}
+#cboxError{padding:50px; border:1px solid #ccc;}
+#cboxLoadedContent{margin-bottom:28px;}
+#cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+#cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}        
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}

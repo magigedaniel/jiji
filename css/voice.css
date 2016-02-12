@@ -1,0 +1,119 @@
+.voice .banner{padding:0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;}
+.voice .banner img{position:relative; margin: -150px 0 40px; z-index:-1;}
+.banner{padding: 4em 0}
+h3{font-size:1.5em; font-weight:500;}
+p {font-size:1.1em;}
+p span{font-size:1.4em;}
+h1{font-weight:lighter}
+#inpWrap{width:340px; overflow:hidden;margin: 0 auto; background-color: #fff; border: 1px solid #dfdfdf; clear: both;}
+#inpWrap label {bottom:-30px;left:0;position:absolute;width:100%;}
+
+#inpWrap input{border-color: #fff; background-color: transparent; float: left;}
+#inpWrap #voiceBtn{float: right; padding: 13px 12px 12px;}
+#inpWrap #iccode{width: 50px; margin-right: 10px; border-right: 1px solid #dfdfdf}
+#imob_no{margin-right: 10px; width: 160px;}
+
+
+.scrBox{padding:50px 0;}
+.scrBox aside{width:70%; padding-top:5em;}
+.scrBox.even aside, .scrBox.odd figure{
+	float:left;
+}
+.scrBox.even figure, .scrBox.odd aside{
+	float:right
+}
+aside h3{
+	color:#24b8eb;
+	margin-bottom:30px;
+}
+figure img{width:100%;}
+
+
+/*pricing table*/
+#priceTblWrap{margin:60px 0}
+
+.priceTbl{
+	word-break:break-all;
+	text-align:center;
+	margin-top:20px;
+}
+.priceTbl thead th{
+	background-color:#485158;
+	padding:2em 0;
+	font-weight:bold;
+	color:#fff;
+	width:19%
+}
+.priceTbl thead th.promo{
+	background-color:#24b8eb
+}
+.priceTbl thead th.first{
+	width:24%
+}
+.thead{
+	font-size:1.3em;
+}
+.priceTbl tbody{
+	font-size:1.3em;
+	font-weight:300;
+	color:#485158
+}
+.priceTbl tbody td{
+	padding:1.2em 0;
+}
+.priceTbl tbody td span{
+	font-size:0.75em
+}
+.priceTbl tbody td:first-child {
+	border-left: 1px solid #e5e6e8;
+}
+.priceTbl tbody td:nth-child(2n+2) {
+	background: #e5e6e8
+}
+
+#formCont{background:#f5f5f5; width:60%; margin:2em auto 6em; border:1px solid #e6e6e6; padding:30px;}
+.inpCont{width:60%; float:right;}
+.inpCont input,.inpCont textarea{width:100%} 
+.formRow{margin-bottom:15px;}
+.formRow h4{font-size:1.2em; font-weight:500; line-height:40px;}
+input.focus{background:#fff !important}
+#mobCont{width:60%;}
+.ccode{
+	width:15%;
+	float:left
+}
+.ccode label{display:block; text-align:left; width:115px;}
+.mob_no label{float:right}
+.mob_no{
+	width:82.5%;
+	float:right
+}
+.addonNote{font-size:1em}
+#sucMsg, #noPrice, .noPrice{font-size:1.3em; display:block; border:1px solid #e6e6e6; padding:20px; background:#f5f5f5; margin-bottom:4em;}
+#noPrice,.noPrice{margin:1em auto 5em; width:57%;}
+#noPrice .dollar, .noPrice .dollar{background:#24B8EB; border-radius:100%; width:52px; height:52px; font-size:37px; color:#fff}
+@media only screen and (max-width : 1280px), (max-device-width:1280px) {
+	#formCont, .scrBox aside{width:65%}
+}
+@media only screen and (max-width : 1024px), (max-device-width:1024px) {
+	.inpCont, #mobCont, .banner img{width:100%}
+	.dollar {float:none; margin:0 auto 10px;}
+	#joinBtn{width:100% !important;}
+	#noPrice,.noPrice{width:100%;}
+}
+@media only screen and (max-width : 800px), (max-device-width:768px){
+	#formCont{width:70%;}
+	aside h3{margin-bottom:20px}
+	.scrBox figure img{max-width: 40%}
+	.scrBox figure{float: none !important;margin: 0 auto; text-align: center;}
+	.scrBox aside{padding-top:30px; width:40%; float: none !important; margin: 0 auto;}
+}
+@media only screen and (max-width : 580px), (max-device-width:580px){
+	.mob_no{width:71%} .ccode{width:25%}
+	#inpWrap{ height: inherit; width: 80%}
+	#inpWrap button, #formCont{width: 100%; clear: both;}
+	.scrBox aside{width:80%}
+        .voice .banner img{margin:0 0 30px}
+}
+@media only screen and (max-width : 420px), (max-device-width:420px){
+}
