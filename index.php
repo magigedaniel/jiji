@@ -22,10 +22,11 @@ require_once('header.php');
                                 <span>Transforming</span>
                                 <span class="cd-words-wrapper">
                                     <b class="is-visible">Businesses.</b>
+                                    <b>Individual.</b>
                                     <b>Enterprises.</b>
                                     <b>Lives.</b>
                                 </span>
-                                <span>Worldwide</span>
+                                <span>in Kenya</span>
                             </h2>
                         </section>
 

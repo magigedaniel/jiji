@@ -95,22 +95,22 @@
         </div>
         <nav id="colorNav">
             <ul class="navi">
-                <li class="menu "><a href="pricing/index.html">Pricing</a></li>
+                <li class="menu "><a href="$">Pricing</a></li>
                 <li class="menu "><a target="_Blank" href="#">API</a></li>
-                <li class="parentMenus pr "><a href="javascript:void(0)">Industries</a>
+                <li class="parentMenus pr "><a href="javascript:void(0)">Services</a>
                     <div class="menu-bg">
                         <div class="nav-column">
                             <ul class="addonsMenu">
-                                <li ><a href="sms-for-developers">Developer</a></li>
+                                <li ><a href="#">Developer</a></li>
                                 <li><a href="sms-in-education">Education</a></li>
                                 <li><a href="sms-reseller/index.html">SMS Reseller</a></li>
                             </ul>
                         </div>
                         <div class="nav-column">
                             <ul class="addonsMenu">
-                                <li><a href="sms-for-alerts#clock">Stock Market</a></li>
-                                <li><a href="startups.1">Startups</a></li>
-                                <li><a href="internal-communication/index.html">Internal Communication</a></li>
+                                <li><a href="#">Stock Market</a></li>
+                                <li><a href="#">Startups</a></li>
+                                <li><a href="#">Internal Communication</a></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -120,11 +120,9 @@
                     <div class="menu-bg" id="sml">
 
                         <ul class="addonsMenu">
-                            <li><a href="sms-for-spreadsheets">Excel plugin</a></li>
-                            <li><a href="sms-for-spreadsheets">Google spreadsheet</a></li>
-                            <li><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html" target="_blank">Magento plugin</a></li>
-                            <li><a href="cc2sms/index.html">CC 2 SMS</a></li>
-                            <li><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></li>
+                            <li><a href="#">Excel plugin</a></li>
+                            <li><a href="#">Google spreadsheet</a></li>
+                            <li><a href="#" target="_blank">More Add-ons</a></li>
                         </ul>
 
                         <!--                        <div class="nav-column">
