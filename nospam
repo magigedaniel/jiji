@@ -7,8 +7,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0" >
-<title>MSG91’s No-Spam Policy for Bulk SMS and Emails.</title>
-<meta name="description" content="Terms of MSG91 usage. Kindly read our terms and condition carefully before sending bulk sms services." />
+<title>JIJICOM’s No-Spam Policy for Bulk SMS and Emails.</title>
+<meta name="description" content="Terms of JIJICOM usage. Kindly read our terms and condition carefully before sending bulk sms services." />
 <meta name="keywords" content="terms of usage." />
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -69,7 +69,7 @@
 </script>
 
 <!--feedback icon bottom
-<a target="_blank" href="http://features.msg91.com/forums/146824-msg91-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
+<a target="_blank" href="http://features.JIJICOM.com/forums/146824-JIJICOM-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
     <img src="../images/feedback.png" />
 </a>--><style>
 p,li{line-height:1.5em; margin: 0 0 10px; font-size: .9em;}
@@ -132,13 +132,13 @@ viewBox="0 0 3.3989 1.0977"
 </svg>
  </a>
         <div id="mobNav" class="">
-            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="MSG91" />
-            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="MSG91" />
+            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="JIJICOM" />
+            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="JIJICOM" />
         </div>
         <nav id="colorNav">
             <ul class="navi">
                 <li class="menu "><a href="pricing/index.html">Pricing</a></li>
-                <li class="menu "><a target="_Blank" href="http://api.msg91.com/apidoc">API</a></li>
+                <li class="menu "><a target="_Blank" href="http://api.JIJICOM.com/apidoc">API</a></li>
                 <li class="parentMenus pr "><a href="javascript:void(0)">Industries</a>
                     <div class="menu-bg">
                         <div class="nav-column">
@@ -164,7 +164,7 @@ viewBox="0 0 3.3989 1.0977"
                             <ul class="addonsMenu">
                                 <li><a href="sms-for-spreadsheets">Excel plugin</a></li>
                                 <li><a href="sms-for-spreadsheets">Google spreadsheet</a></li>
-                                <li><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html" target="_blank">Magento plugin</a></li>
+                                <li><a href="http://www.magentocommerce.com/magento-connect/JIJICOM-messaging-extension.html" target="_blank">Magento plugin</a></li>
                                 <li><a href="cc2sms/index.html">CC 2 SMS</a></li>
                                 <li><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></li>
                             </ul>
@@ -191,7 +191,7 @@ viewBox="0 0 3.3989 1.0977"
     
     <section class="banner">
         <div class="container">
-            <h1 class="themeClr">MSG91’s No-Spam Policy</h1>
+            <h1 class="themeClr">JIJICOM’s No-Spam Policy</h1>
         </div>
     </section><!--/end of banner-->
     
@@ -199,9 +199,9 @@ viewBox="0 0 3.3989 1.0977"
         <div class="container">
             <h2>General conditions</h2>
             <p>We consider SMS to be a compelling tool for delivering useful information, alerts and notifications.</p> 
-            <p>Any registered user of MSG91 can send SMS to his/her friends, family, colleagues, clients, contacts etc. using our service.</p>
-            <p>Users are strictly forbidden from registering multiple times to try demo. One demo account is sufficient to evaluate the service and features offered by MSG91.</p>
-            <p class="bs-callout bs-callout-danger text-danger">MSG91 strictly forbids SPAM messages to be sent from our service at any time.</p>
+            <p>Any registered user of JIJICOM can send SMS to his/her friends, family, colleagues, clients, contacts etc. using our service.</p>
+            <p>Users are strictly forbidden from registering multiple times to try demo. One demo account is sufficient to evaluate the service and features offered by JIJICOM.</p>
+            <p class="bs-callout bs-callout-danger text-danger">JIJICOM strictly forbids SPAM messages to be sent from our service at any time.</p>
         </div><!--/end of container-->
     </div>
     
@@ -209,7 +209,7 @@ viewBox="0 0 3.3989 1.0977"
         <div class="container">
             <h2>Conditions specific to Promotional Route/R1</h2>
             <ul>
-                <li>Promotional SMS will only be processed between 9AM to 9PM (respective country time-zone). MSG91 reserves the right to reject or store in queue the SMS submitted after 9PM to be processed in route 1 working hours.</li>
+                <li>Promotional SMS will only be processed between 9AM to 9PM (respective country time-zone). JIJICOM reserves the right to reject or store in queue the SMS submitted after 9PM to be processed in route 1 working hours.</li>
                 <li>Sender IDs are subjected to availability in recipient’s  country. </li>
                 <li>If the national telecom regulatory of a country provides Do Not Disturb (DND) number database, then promotional SMS’s will not be delivered on these (DND) numbers.</li>
             </ul>
@@ -268,7 +268,7 @@ viewBox="0 0 3.3989 1.0977"
                 <li>Collecting from Yellow Pages, online directories, etc.</li>
                 <li>Getting numbers with the help of number extracting softwares.</li>
             </ul>
-            <p class="bs-callout bs-callout-danger text-danger">MSG91 SMTP  doesn’t allow SPAM messages to be sent to a mobile number from our service. It is </p>
+            <p class="bs-callout bs-callout-danger text-danger">JIJICOM SMTP  doesn’t allow SPAM messages to be sent to a mobile number from our service. It is </p>
         </div><!--/end of container-->
     </div>
     
@@ -278,11 +278,11 @@ viewBox="0 0 3.3989 1.0977"
             <p>We consider any unsolicited, unexpected, or unwanted SMS sent to the recipients in order to extort their valuables from them or to mislead them to be SPAM.</p>
             <p>SMS must comply with the following principles:</p>
             <ul>
-                <li>No false, invalid or misleading information in the body of SMS should be sent using MSG91 Service.</li>
+                <li>No false, invalid or misleading information in the body of SMS should be sent using JIJICOM Service.</li>
                 <li>No SMS must be sent to recipients without having previously obtained her/his consent.</li>
                 <li>Text displayed must clearly state or illustrate the service that is offered.</li>
                 <li>Marketing campaigns must clearly identify who is providing the service (originator) and clearly state the expense of the service promoted.</li>
-                <li>It is strictly forbidden to send messages to illegally collected numbers via MSG91 servers.</li>
+                <li>It is strictly forbidden to send messages to illegally collected numbers via JIJICOM servers.</li>
             </ul>
         </div><!--/end of container-->
     </div>
@@ -298,7 +298,7 @@ viewBox="0 0 3.3989 1.0977"
         <div class="container">
             <h2>Your Right to Cancel / Money Back Guarantee</h2>
             <ul>
-                <li>You can cancel account subscription in MSG91 Service ANYTIME and get the full refund (see <a href="terms.php#refundpolicy" class="und" target="_blank">refund policy</a>). If your account is cancelled or suspended due to SPAM complaints NO refund will be allowable.</li>
+                <li>You can cancel account subscription in JIJICOM Service ANYTIME and get the full refund (see <a href="terms.php#refundpolicy" class="und" target="_blank">refund policy</a>). If your account is cancelled or suspended due to SPAM complaints NO refund will be allowable.</li>
                 <li>Make sure all recipients are permission based (opt-in) i.e. agreed to receive sms from you.</li>
                 <li>It is strictly forbidden to send SMS to the list of numbers addresses that was generated automatically by number extractor software; likewise you are not allowed to use purchased numbers for bulk use.</li>
                 <li>Pay attention that each SMS that you send with the advertising, commercial, and informative purpose must contain your valid physical address.</li>
@@ -321,10 +321,10 @@ viewBox="0 0 3.3989 1.0977"
                     <h5><a href="features.1">Features</a></h5>
                     <h5 ><a href="pricing/index.html">Pricing</a></h5>
                     <!--<h5><a href="/case-studies">Case Study</a></h5>-->
-                    <h5><a href="http://blog.msg91.com">Blog</a></h5>
+                    <h5><a href="http://blog.JIJICOM.com">Blog</a></h5>
                     <!-- $protocol declared in header.php -->
-                    <h5><a href="http://api.msg91.com/apidoc">API</a></h5>
-                    <h5><a href="http://help.msg91.com/">Help</a></h5>
+                    <h5><a href="http://api.JIJICOM.com/apidoc">API</a></h5>
+                    <h5><a href="http://help.JIJICOM.com/">Help</a></h5>
                 </div>
             </aside>
 
@@ -347,7 +347,7 @@ viewBox="0 0 3.3989 1.0977"
                     <h5><a href="longcode">Long Code</a></h5>
                     <!--<h5><a href="/voice-sms">Voice SMS</a></h5>-->
                     <h5><a href="transactional-sms">Transactional SMS</a></h5>
-                    <h5><a href="http://sendotp.msg91.com/">SendOTP</a></h5>
+                    <h5><a href="http://sendotp.JIJICOM.com/">SendOTP</a></h5>
                 </div>
             </aside>
 
@@ -356,15 +356,15 @@ viewBox="0 0 3.3989 1.0977"
                     <h4>Tools &amp; Add-ons</h4>                    
                     <h5><a href="sms-for-spreadsheets">Excel plugin</a></h5>                    
                     <h5><a href="sms-for-spreadsheets">Google spreadsheet</a></h5>
-                    <h5><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html">Magento plugin</a></h5>                    
+                    <h5><a href="http://www.magentocommerce.com/magento-connect/JIJICOM-messaging-extension.html">Magento plugin</a></h5>
                     <h5><a href="cc2sms/index.html">CC2SMS</a></h5>
                     <h5><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></h5>
                     <br/><br/>
                     <h5>Download Apps</h5>
                      <ul class="dload-app clearfix sc">
-                        <li id="apple"><a target="_blank" href="https://itunes.apple.com/us/app/msg91/id981827687" class="app apple"></a></li>
-                        <li id="android"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.msg91.android" class="app android"></a></li>
-                        <li id="windows"><a target="_blank" href="http://www.windowsphone.com/en-in/store/app/msg91/c91883dc-2f72-4586-b409-25cb111ff72d" class="app windows"></a></li>
+                        <li id="apple"><a target="_blank" href="https://itunes.apple.com/us/app/JIJICOM/id981827687" class="app apple"></a></li>
+                        <li id="android"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.JIJICOM.android" class="app android"></a></li>
+                        <li id="windows"><a target="_blank" href="http://www.windowsphone.com/en-in/store/app/JIJICOM/c91883dc-2f72-4586-b409-25cb111ff72d" class="app windows"></a></li>
                     </ul>
                 </div>
             </aside> 
@@ -377,10 +377,10 @@ viewBox="0 0 3.3989 1.0977"
                     <br/><br/>                
                     <h5>Find us on</h5>
                     <ul class="social clearfix sc">
-                        <li id="fb"><a target="_blank" rel="nofollow" href="https://www.facebook.com/msg91"><i class="ic-32 fb"></i></a></li>
+                        <li id="fb"><a target="_blank" rel="nofollow" href="https://www.facebook.com/JIJICOM"><i class="ic-32 fb"></i></a></li>
                         <li id="gp"><a target="_blank" rel="nofollow" href="https://plus.google.com/106160020771001486131"><i class="ic-32 gp"></i></a></li>
-                        <li id="tw"><a target="_blank" rel="nofollow" href="https://twitter.com/msg91com"><i class="ic-32 tw"></i></a></li>
-                        <li id="in" class="last"><a target="_blank" rel="nofollow" href="http://www.linkedin.com/company/msg91/"><i class="ic-32 in"></i></a></li>
+                        <li id="tw"><a target="_blank" rel="nofollow" href="https://twitter.com/JIJICOMcom"><i class="ic-32 tw"></i></a></li>
+                        <li id="in" class="last"><a target="_blank" rel="nofollow" href="http://www.linkedin.com/company/JIJICOM/"><i class="ic-32 in"></i></a></li>
                     </ul>
 
 
@@ -415,7 +415,7 @@ viewBox="0 0 3.3989 1.0977"
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <p class="sub-footer">MSG91 © 2008-2016 MSG91 | All Rights Reserved. | <a href="terms">Terms of use</a> | <a href="privacy">Privacy policy</a>
+                <p class="sub-footer">JIJICOM © 2008-2016 JIJICOM | All Rights Reserved. | <a href="terms">Terms of use</a> | <a href="privacy">Privacy policy</a>
                 </p>
             </div>
         </div>

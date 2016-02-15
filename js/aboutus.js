@@ -2,7 +2,7 @@ var adb = {
     "ashishrajak":{
         "name":"Ashish Rajak",
         "title":"The Toon Prince",
-        "des":"His pencil is the key that unlocks the door to an insane world of endless imageries. In his dreams, Disney Princesses date Minions and Toy Story toons hijack the human race. Emoticons are actual alphabets in this guy’s vocabulary. No activity at MSG91 can escape his sharp observation. He has the power to create in his mind a design, a sketch, an animated character or a mascot in a flash of seconds. He is a fast thinker, slow eater and a creative geek. He makes MSG91 look cool and funky."
+        "des":"His pencil is the key that unlocks the door to an insane world of endless imageries. In his dreams, Disney Princesses date Minions and Toy Story toons hijack the human race. Emoticons are actual alphabets in this guy’s vocabulary. No activity at JIJICOM can escape his sharp observation. He has the power to create in his mind a design, a sketch, an animated character or a mascot in a flash of seconds. He is a fast thinker, slow eater and a creative geek. He makes JIJICOM look cool and funky."
     },
     "abhilashasharma":{
         "name":"Abhilasha Sharma",
@@ -17,17 +17,17 @@ var adb = {
     "aniketjain":{
         "name":"Aniket Jain",
         "title":"The double-edged pen",
-        "des":"Every word said for, by or about MSG91 passes through his edit desk. His eternally single soul has one constant companion – writing. His pen is untamed and often drifts away from the safe harbor to find solace in troubled waters. In the wee hours of the night, you will find him lying beneath a pile of Ayn Rands or Kahlil Gibrans. He adores mind-bending theories and soul-piercing poetry. When he writes, he pours down his heart. He is a double-edged pen that leaks of creativity from both sides. Who needs a sword now?"
+        "des":"Every word said for, by or about JIJICOM passes through his edit desk. His eternally single soul has one constant companion – writing. His pen is untamed and often drifts away from the safe harbor to find solace in troubled waters. In the wee hours of the night, you will find him lying beneath a pile of Ayn Rands or Kahlil Gibrans. He adores mind-bending theories and soul-piercing poetry. When he writes, he pours down his heart. He is a double-edged pen that leaks of creativity from both sides. Who needs a sword now?"
     },
     "amitbisen":{
         "name":"Amit Bisen",
         "title":"Visionary Seller",
-        "des":"Amit is an entrepreneur by heart and a sales person by designation. With the best mix of experience and brightness, he simply becomes a person who corporate circles cannot stop loving. He brings mint fresh ideas and is always ready to reverse theories, if need be. MSG91 often gets showered by his vision and sales strategies."
+        "des":"Amit is an entrepreneur by heart and a sales person by designation. With the best mix of experience and brightness, he simply becomes a person who corporate circles cannot stop loving. He brings mint fresh ideas and is always ready to reverse theories, if need be. JIJICOM often gets showered by his vision and sales strategies."
     },
     "jaypanjwani":{
         "name":"Jay Panjwani",
         "title":"The artistic techie",
-        "des":"He is the Voice of our support team. Well, you will see how. He kick-off his days crooning at a music class and gives you goose bumps with his jaw-dropping performance on a theatre stage. Yet his most theatrical moment is when he enters MSG91 office, exuding energy as he goes. There’s no problem on MSG91 planet that can handle his winsome smile. Workaholic to the core, Jay brings in the best of both worlds – art and IT. He is our “power back-up“ in every sense of the phrase. Jay has been selected for an amazing theatrical course, hence he will be unavailable for over an year."
+        "des":"He is the Voice of our support team. Well, you will see how. He kick-off his days crooning at a music class and gives you goose bumps with his jaw-dropping performance on a theatre stage. Yet his most theatrical moment is when he enters JIJICOM office, exuding energy as he goes. There’s no problem on JIJICOM planet that can handle his winsome smile. Workaholic to the core, Jay brings in the best of both worlds – art and IT. He is our “power back-up“ in every sense of the phrase. Jay has been selected for an amazing theatrical course, hence he will be unavailable for over an year."
     },
     "jerryabraham":{
         "name":"Jerry Abraham",
@@ -37,7 +37,7 @@ var adb = {
     "tameemsir":{
         "name":"Tameem sir",
         "title":"Mr Smile Keeping/ The backstage hero",
-        "des":"Tameem entered the office of Walkover Web Solutions when it was a one-year-old baby learning to walk. It was the time when everyone was doing everything. And accounts needed an owner. In record three days, Tameem got the entire system in place and we suddenly knew the credits and debits like the back of our hands. And what a ride it has been. His proficiency in book keeping puts the wisest to shame. His modesty inspires us and his ‘Oh I can fix it’ phrase lowers our blood pressure. He is the guy who keeps our hearts and smiles back where they belong. MSG91 performs confidently because Tameem holds us from the backstage."
+        "des":"Tameem entered the office of Walkover Web Solutions when it was a one-year-old baby learning to walk. It was the time when everyone was doing everything. And accounts needed an owner. In record three days, Tameem got the entire system in place and we suddenly knew the credits and debits like the back of our hands. And what a ride it has been. His proficiency in book keeping puts the wisest to shame. His modesty inspires us and his ‘Oh I can fix it’ phrase lowers our blood pressure. He is the guy who keeps our hearts and smiles back where they belong. JIJICOM performs confidently because Tameem holds us from the backstage."
     },
     "ashishyadav":{
         "name":"Ashish Yadav",
@@ -52,22 +52,22 @@ var adb = {
     "rahulverma":{
         "name":"Rahul Verma",
         "title":"Quietly Salient",
-        "des":"Rahul portrays the definition of the word saviour perfectly. When dark clouds hover the blue sky of MSG91, he is the one who makes our support pillars stronger. Positivity along with productivity is his weapon of choice. He is the one who believes in working desperately and yet making it look seamless. His earnest dedication with a will to stay afloat makes the aura around him fill with pleasant vibes. "
+        "des":"Rahul portrays the definition of the word saviour perfectly. When dark clouds hover the blue sky of JIJICOM, he is the one who makes our support pillars stronger. Positivity along with productivity is his weapon of choice. He is the one who believes in working desperately and yet making it look seamless. His earnest dedication with a will to stay afloat makes the aura around him fill with pleasant vibes. "
     },
     "ravidangi":{
         "name":"Ravi Dangi",
         "title":"The Client Cocaine",
-        "des":"He is the guy who brought BARISTA – the first ever big brand – on board. He treats every client the way he would treat his girl. Client Service and Support at MSG91 are measured by his scale. As Head of Marketing, he personifies the word motivation. Talk to him for five minutes and you will know what passion for sales is all about. He makes the most trying of pressures look like another sales day in the office. Every day for him is a jolly good sales day. He is a self-initiated and self-proclaimed ‘client charmer’. For clients, he is no less than cocaine."
+        "des":"He is the guy who brought BARISTA – the first ever big brand – on board. He treats every client the way he would treat his girl. Client Service and Support at JIJICOM are measured by his scale. As Head of Marketing, he personifies the word motivation. Talk to him for five minutes and you will know what passion for sales is all about. He makes the most trying of pressures look like another sales day in the office. Every day for him is a jolly good sales day. He is a self-initiated and self-proclaimed ‘client charmer’. For clients, he is no less than cocaine."
     },
     "harshdani":{
         "name":"Harsh Dani",
         "title":"Sales Wiki",
-        "des":"He is the early-to-bed-early-to-rise kinda good boy. For breakfast, he takes a staple diet of sales trends with a few cups of stock market scans. Despite this nutrition, he is usually hungry for more so he browses killer Linked-in profiles or devours marketing blogs. But when he turns up for work, he knows exactly which gear would accelerate the MSG91 bandwagon. Workload for him is another arena of testing a bunch of marketing theories. Chicks love his chubby cheeks while clients bless him for his exuberance. Harsh is easily the most sought-out solutions designer for MSG91."
+        "des":"He is the early-to-bed-early-to-rise kinda good boy. For breakfast, he takes a staple diet of sales trends with a few cups of stock market scans. Despite this nutrition, he is usually hungry for more so he browses killer Linked-in profiles or devours marketing blogs. But when he turns up for work, he knows exactly which gear would accelerate the JIJICOM bandwagon. Workload for him is another arena of testing a bunch of marketing theories. Chicks love his chubby cheeks while clients bless him for his exuberance. Harsh is easily the most sought-out solutions designer for JIJICOM."
     },
     "kadamb":{
         "name":"Kadamb",
         "title":"The War-footed developer",
-        "des":"He is like a warrior at the battlefield who never leaves post unless commanded. He is a problem solver and coder par excellence. He is not the guy who just chews an information and spits out some theory. He is the guy who will first chew a fact for sometime, swallow one piece at a time and digest it before committing anything. To top that, he would do his own bit of homework before offering a plausible solution. He is the most calculated developer you will come across. His dependability gives MSG91 an unparallel strength. In a parallel world, however, his desk has a sign post : Keep Calm and Develop 24*7."
+        "des":"He is like a warrior at the battlefield who never leaves post unless commanded. He is a problem solver and coder par excellence. He is not the guy who just chews an information and spits out some theory. He is the guy who will first chew a fact for sometime, swallow one piece at a time and digest it before committing anything. To top that, he would do his own bit of homework before offering a plausible solution. He is the most calculated developer you will come across. His dependability gives JIJICOM an unparallel strength. In a parallel world, however, his desk has a sign post : Keep Calm and Develop 24*7."
     },
     "manishdangas":{
         "name":"Manish Dangas",
@@ -97,22 +97,22 @@ var adb = {
     "piyush":{
         "name":"Piyush",
         "title":"The One-shot Executor",
-        "des":"A man of his word, Piyush dreams big. An extensive researcher and a voracious planner, Piyush loves execution (pun intended).When you are in his team, you either execute plans, or he executes you. MSG91 banks on him for bringing ideas to fruition."
+        "des":"A man of his word, Piyush dreams big. An extensive researcher and a voracious planner, Piyush loves execution (pun intended).When you are in his team, you either execute plans, or he executes you. JIJICOM banks on him for bringing ideas to fruition."
     },
     "harshtongia":{
         "name":"Harsh Tongia",
         "title":"Mr Corporate Pants",
-        "des":"He was born for networking. And his etiquettes come in handy. He has the credit of bringing various brands back home. He is like a sweet poison and can melt the most hard-to-get customers. Social drinker. When he is not officially networking for MSG91, he is usually found sweet-talking a potential client in a Page-3 party.  "
+        "des":"He was born for networking. And his etiquettes come in handy. He has the credit of bringing various brands back home. He is like a sweet poison and can melt the most hard-to-get customers. Social drinker. When he is not officially networking for JIJICOM, he is usually found sweet-talking a potential client in a Page-3 party.  "
     },
     "dheerajtiwari":{
         "name":"Dheeraj Tiwari",
         "title":"Our Go-to Man",
-        "des":"Every development issue is shown his cabin with the instruction: Go to Daddy! Dheeraj is always ready to solve problems and help others. His logics are as strong as his muscles. He is a hard-core fitness freak and a lousy cricketer who loves the game regardless. When his muscles aren’t put on the dumb-bell drill, his mind muscles are sweating it out inside the close quarters of MSG91."
+        "des":"Every development issue is shown his cabin with the instruction: Go to Daddy! Dheeraj is always ready to solve problems and help others. His logics are as strong as his muscles. He is a hard-core fitness freak and a lousy cricketer who loves the game regardless. When his muscles aren’t put on the dumb-bell drill, his mind muscles are sweating it out inside the close quarters of JIJICOM."
     },
     "sapna":{
         "name":"Sapna",
         "title":"Ms Meticulous",
-        "des":"A huge Sudoku fan, Sapna has a flow chart for every module in her mind. Focuses on one task at a time. Her mantra goes: Pick a task as per your height. Impress yourself, not others. And once you are done, move on. She is the ultimate Task Jedi of MSG91, yet has a heart of a child. A huge Indian Cricket Team fanatic, she is the craziest and funniest girl you will meet. "
+        "des":"A huge Sudoku fan, Sapna has a flow chart for every module in her mind. Focuses on one task at a time. Her mantra goes: Pick a task as per your height. Impress yourself, not others. And once you are done, move on. She is the ultimate Task Jedi of JIJICOM, yet has a heart of a child. A huge Indian Cricket Team fanatic, she is the craziest and funniest girl you will meet. "
     },
     "ravipaliwal":{
         "name":"Ravi Paliwal",
@@ -137,7 +137,7 @@ var adb = {
     "sarfaraz":{
         "name":"Sarfaraz",
         "title":"Furious Coder",
-        "des":"Sarfaraz is our front-end developer at MSG91. His furious coding makes our UX the best and our UI the beast. He runs as if on a time bomb that gets our projects ticking. He is hard to convince, easy to understand and fun to handle a project with. Sarfaraz has clarity in his thoughts owing to his many travel excursions. He is as logical as his codes. Even his comments are commitments in disguise."
+        "des":"Sarfaraz is our front-end developer at JIJICOM. His furious coding makes our UX the best and our UI the beast. He runs as if on a time bomb that gets our projects ticking. He is hard to convince, easy to understand and fun to handle a project with. Sarfaraz has clarity in his thoughts owing to his many travel excursions. He is as logical as his codes. Even his comments are commitments in disguise."
 },
     "fahad":{
         "name":"Mohammad Fahad",
@@ -147,16 +147,16 @@ var adb = {
     "krati":{
         "name":"Krati",
         "title":"Excel Wizard",
-        "des":"Krati flaunts her expertise in Excel and uses rest of her time in being the Superwoman saving her teammates at the time of need. No matter how much work she has on her hands, she always manages to squeeze in a bunch of more. She has possibly the highest percentage of stress tolerance. When she is not exercising her Excel skills at MSG91, she loves adding more outfits to her wardrobe collection. In her dreams, she finds herself starring in 'Confessions of a shopaholic'."
+        "des":"Krati flaunts her expertise in Excel and uses rest of her time in being the Superwoman saving her teammates at the time of need. No matter how much work she has on her hands, she always manages to squeeze in a bunch of more. She has possibly the highest percentage of stress tolerance. When she is not exercising her Excel skills at JIJICOM, she loves adding more outfits to her wardrobe collection. In her dreams, she finds herself starring in 'Confessions of a shopaholic'."
     },
     "khushboo":{
         "name":"Khushboo",
         "title":"Sales Enchantress",
-        "des":"Khushboo enlivens the ambience with her bubbly presence and abides by the rules of sincerity. The phrase 'Chicken wings' makes the heart of the foodie inside her jump with joy. As the newest MSG91 member, Khushboo is brimming with fresh energy and ideas.  Her ever-on-the-face smile and negotiation skills can convince the most challenging clients."
+        "des":"Khushboo enlivens the ambience with her bubbly presence and abides by the rules of sincerity. The phrase 'Chicken wings' makes the heart of the foodie inside her jump with joy. As the newest JIJICOM member, Khushboo is brimming with fresh energy and ideas.  Her ever-on-the-face smile and negotiation skills can convince the most challenging clients."
     },
     "shefali":{
         "name":"Shefali Deshwali",
         "title":"Nerdy Wordsmith",
-        "des":"Shefali's fetish is owning a book cafe on a mountain and spending the lifetime devouring a thousand splendid books. Her one-night-stands with bestselling books have contributed in making her a writing diva. She is the grammar nerd at MSG91 and doesn't hesitate in correcting even our biggest clients on language. She plays with words as easily as she does with her beautiful hair strands. And there are times you can read her smiles in her blogs."
+        "des":"Shefali's fetish is owning a book cafe on a mountain and spending the lifetime devouring a thousand splendid books. Her one-night-stands with bestselling books have contributed in making her a writing diva. She is the grammar nerd at JIJICOM and doesn't hesitate in correcting even our biggest clients on language. She plays with words as easily as she does with her beautiful hair strands. And there are times you can read her smiles in her blogs."
     }
 }

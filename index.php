@@ -33,7 +33,7 @@ require_once('header.php');
                     </div>
                     <div class="bottom-btn">
                         <a href="signup" class="btn btn-large btn-solid">Try our service</a>
-                        <a href="india/pricing" class="btn btn-large btn-blank">Get In Touch 24/7 Support</a>
+                        <a href="#" class="btn btn-large btn-blank">Get In Touch 24/7 Support</a>
                         </div>
                     <div class="clear"></div>
                 </div>

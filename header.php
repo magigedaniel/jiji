@@ -10,13 +10,13 @@
     <meta name="Content-Language" content="EN" />
     <meta name="googlebot" content="all" />
     <meta name="distribution" content="Global" />
-    <meta name="publisher" content="MSG91" />
-    <meta name="author" content="MSG91" />
-    <meta name="organization" content="MSG91" />
-    <meta name="copyright" content="MSG91 All Rights Reserved" />
+    <meta name="publisher" content="JIJICOM" />
+    <meta name="author" content="JIJICOM" />
+    <meta name="organization" content="JIJICOM" />
+    <meta name="copyright" content="JIJICOM All Rights Reserved" />
     <link rel="canonical"  href="index.html" />
     <meta name="keywords" content="bJijiCom media, bJijiCom media service, bJijiCom media service provider, transactional bJijiCom media, promotional bJijiCom media, bJijiCom media gateway bJijiCom media provider," />
-    <meta name="description" content="MSG91, a bJijiCom media service provider offers transactional & promotional bJijiCom media solutions to enterprises via powerful & robust bJijiCom media gateway internationally." />
+    <meta name="description" content="JIJICOM, a bJijiCom media service provider offers transactional & promotional bJijiCom media solutions to enterprises via powerful & robust bJijiCom media gateway internationally." />
     <title>JIJICOM MEDIA LTD </title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -76,7 +76,7 @@
     </script>
 
     <!--feedback icon bottom
-    <a target="_blank" href="http://features.msg91.com/forums/146824-msg91-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
+    <a target="_blank" href="http://features.JIJICOM.com/forums/146824-JIJICOM-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
         <img src="../images/feedback.png" />
     </a>-->    <link href='css/home-style.css' rel='stylesheet' type='text/css'>
 </head>
@@ -87,23 +87,23 @@
 </style>
 <header>
     <div class="container clear pr">
-        <a href="index.html" id="logo"> <img src="images/Jijicom-Media-logo2.png" width="160%">
+        <a href="" id="logo"> <img src="images/Jijicom-Media-logo2.png" width="160%">
         </a>
         <div id="mobNav" class="">
-            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="MSG91" />
-            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="MSG91" />
+            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="JIJICOM" />
+            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="JIJICOM" />
         </div>
         <nav id="colorNav">
             <ul class="navi">
                 <li class="menu "><a href="$">Pricing</a></li>
-                <li class="menu "><a target="_Blank" href="#">API</a></li>
+                <li class="menu "><a target="_Blank" href="#">Contacts</a></li>
                 <li class="parentMenus pr "><a href="javascript:void(0)">Services</a>
                     <div class="menu-bg">
                         <div class="nav-column">
                             <ul class="addonsMenu">
                                 <li ><a href="#">Developer</a></li>
-                                <li><a href="sms-in-education">Education</a></li>
-                                <li><a href="sms-reseller/index.html">SMS Reseller</a></li>
+                                <li><a href="#">Education</a></li>
+                                <li><a href="#">SMS Reseller</a></li>
                             </ul>
                         </div>
                         <div class="nav-column">
@@ -116,7 +116,7 @@
                         <div class="clear"></div>
                     </div>
                 </li>
-                <li class="parentMenus pr "><a href="javascript:void(0)">Tools &amp; Add-ons</a>
+                <li class="parentMenus pr "><a href="javascript:void(0)">API &amp; Add-ons</a>
                     <div class="menu-bg" id="sml">
 
                         <ul class="addonsMenu">
@@ -134,9 +134,9 @@
                         </div>-->
                     </div>
                 </li>
-                <li><a href="signin">Sign in</a></li>
+                <li><a href="signin.php">Sign in</a></li>
 
-                <li class="bt"><a class="signUpBtn" href="signup">Sign up</a></li>
+                <li class="bt"><a class="signUpBtn" href="signup.php">Sign up</a></li>
             </ul>
         </nav>
     </div>

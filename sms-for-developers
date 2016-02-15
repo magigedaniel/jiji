@@ -9,10 +9,10 @@
 <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0" >
 <meta name="description" content="Integrate SMS in every application or configure in any software with our so easy and robust APIs or use our 24X7 support." />
 <meta name="keywords" content="smsapi, send sms api, bulk sms api" />
-<title>SMS API - Easy, secure and robust SMS APIs from MSG91</title>
+<title>SMS API - Easy, secure and robust SMS APIs from JIJICOM</title>
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="alternate" type="application/rss+xml" title="Enterprise SMS Marketing Blog" href="http://blog.msg91.com/feed/" /> 
+<link rel="alternate" type="application/rss+xml" title="Enterprise SMS Marketing Blog" href="http://blog.JIJICOM.com/feed/" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap-structure-min.css">
 <style type="text/css">
     .ic-oth{
@@ -69,7 +69,7 @@
 </script>
 
 <!--feedback icon bottom
-<a target="_blank" href="http://features.msg91.com/forums/146824-msg91-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
+<a target="_blank" href="http://features.JIJICOM.com/forums/146824-JIJICOM-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
     <img src="../images/feedback.png" />
 </a>--> 
 <link rel="stylesheet" type="text/css" href="css/developer-style.css">
@@ -101,13 +101,13 @@ viewBox="0 0 3.3989 1.0977"
 </svg>
  </a>
         <div id="mobNav" class="">
-            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="MSG91" />
-            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="MSG91" />
+            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="JIJICOM" />
+            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="JIJICOM" />
         </div>
         <nav id="colorNav">
             <ul class="navi">
                 <li class="menu "><a href="pricing/index.html">Pricing</a></li>
-                <li class="menu "><a target="_Blank" href="http://api.msg91.com/apidoc">API</a></li>
+                <li class="menu "><a target="_Blank" href="http://api.JIJICOM.com/apidoc">API</a></li>
                 <li class="parentMenus pr active"><a href="javascript:void(0)">Industries</a>
                     <div class="menu-bg">
                         <div class="nav-column">
@@ -133,7 +133,7 @@ viewBox="0 0 3.3989 1.0977"
                             <ul class="addonsMenu">
                                 <li><a href="sms-for-spreadsheets">Excel plugin</a></li>
                                 <li><a href="sms-for-spreadsheets">Google spreadsheet</a></li>
-                                <li><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html" target="_blank">Magento plugin</a></li>
+                                <li><a href="http://www.magentocommerce.com/magento-connect/JIJICOM-messaging-extension.html" target="_blank">Magento plugin</a></li>
                                 <li><a href="cc2sms/index.html">CC 2 SMS</a></li>
                                 <li><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></li>
                             </ul>
@@ -283,7 +283,7 @@ BufferedReader reader=null;
 String encoded_message=URLEncoder.encode(message);
 
 //Send SMS API
-String mainUrl="https://control.msg91.com/api/sendhttp.php?";
+String mainUrl="https://control.JIJICOM.com/api/sendhttp.php?";
 
 //Prepare parameter string 
 StringBuilder sbPostData= new StringBuilder(url);
@@ -346,7 +346,7 @@ catch (IOException e)
     );
     <br />
     //API URL<br />
-    $url=&quot;https://control.msg91.com/api/sendhttp.php&quot;;
+    $url=&quot;https://control.JIJICOM.com/api/sendhttp.php&quot;;
     <br />
     // init the resource<br />
     $ch = curl_init();
@@ -403,7 +403,7 @@ values = {<br />
           'route' : route<br />
           }<br />
 <br />
-url = &quot;https://control.msg91.com/api/sendhttp.php&quot; # API URL
+url = &quot;https://control.JIJICOM.com/api/sendhttp.php&quot; # API URL
 <br />
 postdata = urllib.urlencode(values) # URL encoding the data here.
 <br />
@@ -439,7 +439,7 @@ sbPostData.AppendFormat(&quot;&amp;route={0}&quot;, &quot;default&quot;);
 try<br />
 {<br />
     //Call Send SMS API<br />
-    string sendSMSUri = &quot;https://control.msg91.com/api/sendhttp.php&quot;;
+    string sendSMSUri = &quot;https://control.JIJICOM.com/api/sendhttp.php&quot;;
     //Create HTTPWebrequest<br />
     HttpWebRequest httpWReq = (HttpWebRequest)WebRequest.Create(sendSMSUri);
     //Prepare and Add URL Encoded data<br />
@@ -491,7 +491,7 @@ try<br />
     postValues.Add(new KeyValuePair&lt;string, string&gt;(&quot;route&quot;,&quot;default&quot;));
     <br />
     //Prepare API to send SMS<br />
-    Uri requesturl = new Uri(&quot;https://control.msg91.com/api/sendhttp.php&quot;);
+    Uri requesturl = new Uri(&quot;https://control.JIJICOM.com/api/sendhttp.php&quot;);
     //create httpclient request<br />
     var httpClient = new HttpClient();<br />
     var httpContent = new HttpRequestMessage(HttpMethod.Post, requesturl);
@@ -535,7 +535,7 @@ BufferedReader reader=null;
 String encoded_message=URLEncoder.encode(message);
 <br />
 //Send SMS API<br />
-String mainUrl=&quot;https://control.msg91.com/api/sendhttp.php?&quot;;
+String mainUrl=&quot;https://control.JIJICOM.com/api/sendhttp.php?&quot;;
 <br />
 //Prepare parameter string <br />
 StringBuilder sbPostData= new StringBuilder(mainUrl);<br />
@@ -595,7 +595,7 @@ NSURLConnection * connection;<br />
     NSString * route = @&quot;default&quot;;
     <br />
     // Prepare your url to send sms with this parameters.
-    NSString * url = [[NSString stringWithFormat:@&quot;https://control.msg91.com/api/sendhttp.php?authkey=%@&amp;mobiles=%@&amp;message=%@&amp;sender=%@&amp;route=%@&quot;, authkey, mobiles, message, senderId, route] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString * url = [[NSString stringWithFormat:@&quot;https://control.JIJICOM.com/api/sendhttp.php?authkey=%@&amp;mobiles=%@&amp;message=%@&amp;sender=%@&amp;route=%@&quot;, authkey, mobiles, message, senderId, route] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURLRequest * request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
 }
@@ -654,7 +654,7 @@ message = URLEncode(" Your message ")
 'Define route
 route = "default" 
 ' do not use https 
-URL = "https://control.msg91.com/api/sendhttp.php?" 
+URL = "https://control.JIJICOM.com/api/sendhttp.php?"
  <br />
 Set objXML = CreateObject("Microsoft.XMLHTTP")
 objXML.Open "POST", URL , False
@@ -749,7 +749,7 @@ public class HitXmlData
 {
 	public static void main(String[] args) 
 	{
-    		String strUrl = "https://control.msg91.com/api/postsms.php";
+    		String strUrl = "https://control.JIJICOM.com/api/postsms.php";
     		String xmlData = "data=
                                     &lt;MESSAGE&gt;
                                         &lt;AUTHKEY&gt;YOURAUTHKEY&lt;/AUTHKEY&gt;
@@ -843,7 +843,7 @@ public class HitXmlData
                   <div class="col-lg-12">
                   <div class="quotes innerfade" id="quotes1">
           							     <div class="quote" style="display: none;">
-              							  <blockquote><p>"Its been a long term business relationship with MSG91 and we have experienced good service and some times bad as well, but I haven't find any reason to switch to any other provider. And for being with MSG the biggest reason is that "they keep on changing their selves" and maintained the uniqueness."</p></blockquote>
+              							  <blockquote><p>"Its been a long term business relationship with JIJICOM and we have experienced good service and some times bad as well, but I haven't find any reason to switch to any other provider. And for being with MSG the biggest reason is that "they keep on changing their selves" and maintained the uniqueness."</p></blockquote>
                                			 <cite> — Rakesh Dwivedi, <strong>NRT Inc.</strong></cite>
                             </div>
                               <div class="quote" style="display: none;">
@@ -857,12 +857,12 @@ public class HitXmlData
                               </div>
           
                               <div class="quote" style="display: block;">
-                                  <blockquote><p>"Technical support of MSG91 are quite good. All the best for the future."</p></blockquote>
+                                  <blockquote><p>"Technical support of JIJICOM are quite good. All the best for the future."</p></blockquote>
                                   <cite> — Bhaskar Chandra, <strong>IT Visual Solutions Unit of IVS Group of Business</strong></cite>
                               </div>
           
                               <div class="quote" style="display: none;">
-                                  <blockquote><p>"Our experience with MSG91 has been great. They have wonderful interface, assured delivery mechanism and above all the quality and timely support. Being a software company, we have used many other SMS services company but the kind of personalized support MSG91 team has given is major differentiator according to us. Keep it up Team MSG91."</p></blockquote>
+                                  <blockquote><p>"Our experience with JIJICOM has been great. They have wonderful interface, assured delivery mechanism and above all the quality and timely support. Being a software company, we have used many other SMS services company but the kind of personalized support JIJICOM team has given is major differentiator according to us. Keep it up Team JIJICOM."</p></blockquote>
                                   <cite> — Hitesh Trivedi, <strong>Quicksoft Services</strong></cite>
                               </div>
                 </div>
@@ -944,7 +944,7 @@ public class HitXmlData
                          
                         <div class="quotes innerfade" id="quotes2" style="">
   							  <div class="quote" style="display: none;">
-      							  <blockquote><p>"MSG91 has one of the best customer support team. Always ready to help. But the best part is that you done require their assistance at all, the services they provide are seamless and very easy to use."</p></blockquote>
+      							  <blockquote><p>"JIJICOM has one of the best customer support team. Always ready to help. But the best part is that you done require their assistance at all, the services they provide are seamless and very easy to use."</p></blockquote>
                        			 <cite> — Shamvil Raza, <strong>GDG VIT Vellore</strong></cite>
                     </div>
                               <div class="quote" style="display: none;">
@@ -953,12 +953,12 @@ public class HitXmlData
                               </div>
           
                               <div class="quote" style="display: none;">
-                                  <blockquote><p>"I was using other service before. But the day I reached to MSG91, I am moving nowhere else anymore because I trust the service and satisfy with it. It does what I want exactly. The simplicity and support are awesome. Thank you."</p></blockquote>
+                                  <blockquote><p>"I was using other service before. But the day I reached to JIJICOM, I am moving nowhere else anymore because I trust the service and satisfy with it. It does what I want exactly. The simplicity and support are awesome. Thank you."</p></blockquote>
                                   <cite> — Vanlalruata Hnamte, <strong>ZoSoft Network</strong> </cite>
                               </div>
           
                               <div class="quote" style="display: block;">
-                                  <blockquote><p>"We have been using the services of MSG91 for over three years, primarily to text information messages to its members. We are very satisfied with the services of MSG91 since the application is very user friendly, the rates being very reasonable, prompt delivery of the message and availability of reports. Wishing MSG91 all success. "</p></blockquote>
+                                  <blockquote><p>"We have been using the services of JIJICOM for over three years, primarily to text information messages to its members. We are very satisfied with the services of JIJICOM since the application is very user friendly, the rates being very reasonable, prompt delivery of the message and availability of reports. Wishing JIJICOM all success. "</p></blockquote>
                                   <cite> — Cdr Reginald Daniel, <strong>Navy Foundation Kerala Charter</strong></cite>
                               </div>
           
@@ -1088,7 +1088,7 @@ public class HitXmlData
                      </div>
                 </div>
                 <div class="row alC" style="margin-top:65px;"> 
-                  <a href="signup.php" class="btn btn-large btn-white">Try MSG91 now</a>
+                  <a href="signup.php" class="btn btn-large btn-white">Try JIJICOM now</a>
                 </div>
             </div>
         </section>
@@ -1105,10 +1105,10 @@ public class HitXmlData
                     <h5><a href="features.1">Features</a></h5>
                     <h5 ><a href="pricing/index.html">Pricing</a></h5>
                     <!--<h5><a href="/case-studies">Case Study</a></h5>-->
-                    <h5><a href="http://blog.msg91.com">Blog</a></h5>
+                    <h5><a href="http://blog.JIJICOM.com">Blog</a></h5>
                     <!-- $protocol declared in header.php -->
-                    <h5><a href="http://api.msg91.com/apidoc">API</a></h5>
-                    <h5><a href="http://help.msg91.com/">Help</a></h5>
+                    <h5><a href="http://api.JIJICOM.com/apidoc">API</a></h5>
+                    <h5><a href="http://help.JIJICOM.com/">Help</a></h5>
                 </div>
             </aside>
 
@@ -1131,7 +1131,7 @@ public class HitXmlData
                     <h5><a href="longcode">Long Code</a></h5>
                     <!--<h5><a href="/voice-sms">Voice SMS</a></h5>-->
                     <h5><a href="transactional-sms">Transactional SMS</a></h5>
-                    <h5><a href="http://sendotp.msg91.com/">SendOTP</a></h5>
+                    <h5><a href="http://sendotp.JIJICOM.com/">SendOTP</a></h5>
                 </div>
             </aside>
 
@@ -1140,15 +1140,15 @@ public class HitXmlData
                     <h4>Tools &amp; Add-ons</h4>                    
                     <h5><a href="sms-for-spreadsheets">Excel plugin</a></h5>                    
                     <h5><a href="sms-for-spreadsheets">Google spreadsheet</a></h5>
-                    <h5><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html">Magento plugin</a></h5>                    
+                    <h5><a href="http://www.magentocommerce.com/magento-connect/JIJICOM-messaging-extension.html">Magento plugin</a></h5>
                     <h5><a href="cc2sms/index.html">CC2SMS</a></h5>
                     <h5><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></h5>
                     <br/><br/>
                     <h5>Download Apps</h5>
                      <ul class="dload-app clearfix sc">
-                        <li id="apple"><a target="_blank" href="https://itunes.apple.com/us/app/msg91/id981827687" class="app apple"></a></li>
-                        <li id="android"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.msg91.android" class="app android"></a></li>
-                        <li id="windows"><a target="_blank" href="http://www.windowsphone.com/en-in/store/app/msg91/c91883dc-2f72-4586-b409-25cb111ff72d" class="app windows"></a></li>
+                        <li id="apple"><a target="_blank" href="https://itunes.apple.com/us/app/JIJICOM/id981827687" class="app apple"></a></li>
+                        <li id="android"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.JIJICOM.android" class="app android"></a></li>
+                        <li id="windows"><a target="_blank" href="http://www.windowsphone.com/en-in/store/app/JIJICOM/c91883dc-2f72-4586-b409-25cb111ff72d" class="app windows"></a></li>
                     </ul>
                 </div>
             </aside> 
@@ -1161,10 +1161,10 @@ public class HitXmlData
                     <br/><br/>                
                     <h5>Find us on</h5>
                     <ul class="social clearfix sc">
-                        <li id="fb"><a target="_blank" rel="nofollow" href="https://www.facebook.com/msg91"><i class="ic-32 fb"></i></a></li>
+                        <li id="fb"><a target="_blank" rel="nofollow" href="https://www.facebook.com/JIJICOM"><i class="ic-32 fb"></i></a></li>
                         <li id="gp"><a target="_blank" rel="nofollow" href="https://plus.google.com/106160020771001486131"><i class="ic-32 gp"></i></a></li>
-                        <li id="tw"><a target="_blank" rel="nofollow" href="https://twitter.com/msg91com"><i class="ic-32 tw"></i></a></li>
-                        <li id="in" class="last"><a target="_blank" rel="nofollow" href="http://www.linkedin.com/company/msg91/"><i class="ic-32 in"></i></a></li>
+                        <li id="tw"><a target="_blank" rel="nofollow" href="https://twitter.com/JIJICOMcom"><i class="ic-32 tw"></i></a></li>
+                        <li id="in" class="last"><a target="_blank" rel="nofollow" href="http://www.linkedin.com/company/JIJICOM/"><i class="ic-32 in"></i></a></li>
                     </ul>
 
 
@@ -1201,13 +1201,13 @@ public class HitXmlData
                         <div class="col-md-12 col-sm-12">
                             <div class="seosec">
                                 <article>
-                                    <strong>SMS API</strong><br> Extend your messaging needs with the provided set of our sms API. With MSG91, we aim to make messaging easy and therefore, we provide our very own bulk sms api functionality so that the user need not get stuck in any situation and can send SMS from any and everywhere. Other than this, you can get our sms API's for each and every purpose i.e. text message api, send sms api etc. 
+                                    <strong>SMS API</strong><br> Extend your messaging needs with the provided set of our sms API. With JIJICOM, we aim to make messaging easy and therefore, we provide our very own bulk sms api functionality so that the user need not get stuck in any situation and can send SMS from any and everywhere. Other than this, you can get our sms API's for each and every purpose i.e. text message api, send sms api etc.
                                 </article>
                                 <article>
-                                    <strong>Variety of MSG91's API's   </strong><br> MSG91 provides its users with a wide range of bulk sms API's which in turn help the users to avoid unnecessary coding and struggling. Some of our distinct API's serve the purpose for different types of SMS such as text, voice, virtual numbers etc.Discover appropriate Bulk sms API for your needs and utilise messaging services to its best.
+                                    <strong>Variety of JIJICOM's API's   </strong><br> JIJICOM provides its users with a wide range of bulk sms API's which in turn help the users to avoid unnecessary coding and struggling. Some of our distinct API's serve the purpose for different types of SMS such as text, voice, virtual numbers etc.Discover appropriate Bulk sms API for your needs and utilise messaging services to its best.
                                 </article>
                                 <article>
-                                    <strong>What makes us different?</strong><br> All your needs are answered at a single platform, MSG91. We provide our users with api's for each and every aspect of the panel. Integrate distinct API sample codes as per your choice of programming language. You can send sms using php, JAVA, C#, Python etc. Also you can easily send bulk sms in case of heavy traffic via our XML api. Other than this, our api's can also be integrated in your mobile as well as desktop apps.
+                                    <strong>What makes us different?</strong><br> All your needs are answered at a single platform, JIJICOM. We provide our users with api's for each and every aspect of the panel. Integrate distinct API sample codes as per your choice of programming language. You can send sms using php, JAVA, C#, Python etc. Also you can easily send bulk sms in case of heavy traffic via our XML api. Other than this, our api's can also be integrated in your mobile as well as desktop apps.
                                 </article>
                             </div>    
                     </div>
@@ -1218,7 +1218,7 @@ public class HitXmlData
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <p class="sub-footer">MSG91 © 2008-2016 MSG91 | All Rights Reserved. | <a href="terms">Terms of use</a> | <a href="privacy">Privacy policy</a>
+                <p class="sub-footer">JIJICOM © 2008-2016 JIJICOM | All Rights Reserved. | <a href="terms">Terms of use</a> | <a href="privacy">Privacy policy</a>
                 </p>
             </div>
         </div>

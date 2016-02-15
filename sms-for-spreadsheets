@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="send sms from excel, send bulk sms from excel sheet " />
 <meta name="description" content="Integrate SMS in excel sheet &amp; google spreadsheet to send bulk SMS directly from sheets.  Try and explore the enormous possibilities in your business." />
-<title>Send SMS from excel &amp; spreadsheet - MSG91</title>
+<title>Send SMS from excel &amp; spreadsheet - JIJICOM</title>
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-structure-min.css">
@@ -69,7 +69,7 @@
 </script>
 
 <!--feedback icon bottom
-<a target="_blank" href="http://features.msg91.com/forums/146824-msg91-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
+<a target="_blank" href="http://features.JIJICOM.com/forums/146824-JIJICOM-feature-and-idea-suggestion-forum" style="display:block; border-radius:50%;position:fixed;bottom:20px;padding:10px; right:85px;width:48px;height:48px;cursor: pointer; color:#fff; font-size: 22px; background:#1c5d9e; z-index:999; box-shadow:0 6px 13px 0 rgba(0,0,0,.23); border: 1px solid #003576;">
     <img src="../images/feedback.png" />
 </a>--><link rel="stylesheet" type="text/css" href="css/add-ons-style.css">
 <link rel="canonical" href="sms-for-spreadsheets" />
@@ -100,13 +100,13 @@ viewBox="0 0 3.3989 1.0977"
 </svg>
  </a>
         <div id="mobNav" class="">
-            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="MSG91" />
-            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="MSG91" />
+            <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="JIJICOM" />
+            <img id="navclose" data-original="/images/menu_icon_cross.png" src="images/menu_icon_cross.png" alt="JIJICOM" />
         </div>
         <nav id="colorNav">
             <ul class="navi">
                 <li class="menu "><a href="pricing/index.html">Pricing</a></li>
-                <li class="menu "><a target="_Blank" href="http://api.msg91.com/apidoc">API</a></li>
+                <li class="menu "><a target="_Blank" href="http://api.JIJICOM.com/apidoc">API</a></li>
                 <li class="parentMenus pr "><a href="javascript:void(0)">Industries</a>
                     <div class="menu-bg">
                         <div class="nav-column">
@@ -132,7 +132,7 @@ viewBox="0 0 3.3989 1.0977"
                             <ul class="addonsMenu">
                                 <li><a href="sms-for-spreadsheets">Excel plugin</a></li>
                                 <li><a href="sms-for-spreadsheets">Google spreadsheet</a></li>
-                                <li><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html" target="_blank">Magento plugin</a></li>
+                                <li><a href="http://www.magentocommerce.com/magento-connect/JIJICOM-messaging-extension.html" target="_blank">Magento plugin</a></li>
                                 <li><a href="cc2sms/index.html">CC 2 SMS</a></li>
                                 <li><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></li>
                             </ul>
@@ -162,7 +162,7 @@ viewBox="0 0 3.3989 1.0977"
             <div class="inner">
               <div class="overlay"></div>
                 <div class="banner-content">
-                    <h1 class="alC animated fadeIn slower">Excel Plugin and Spreadsheet add-ons from MSG91.</h1>
+                    <h1 class="alC animated fadeIn slower">Excel Plugin and Spreadsheet add-ons from JIJICOM.</h1>
                     <div class="bImg">
                         <img class="sc1" src='images/add-ons/sc1.png'/>
                         <img class="sc2" src='images/add-ons/sc2.png'/>
@@ -175,8 +175,8 @@ viewBox="0 0 3.3989 1.0977"
   <!-- SECTION START -->
    	 <section class="pdT4 pdB4">
             <div class="container alC">
-                <a class="btn btn-solid btn-large mrR1 mrB1" href="http://control.msg91.com/user/excel-plugin-v-2.0.zip">Excel plugin</a>
-                <a class="btn btn-green btn-large" target="_blank" href="http://help.msg91.com/article/58-what-is-google-spreadsheet-add-on-how-to-send-sms-with-google-spreadsheet">Spreadsheet Plugin</a>
+                <a class="btn btn-solid btn-large mrR1 mrB1" href="http://control.JIJICOM.com/user/excel-plugin-v-2.0.zip">Excel plugin</a>
+                <a class="btn btn-green btn-large" target="_blank" href="http://help.JIJICOM.com/article/58-what-is-google-spreadsheet-add-on-how-to-send-sms-with-google-spreadsheet">Spreadsheet Plugin</a>
             </div>
         </section>
   <!-- SECTION END -->
@@ -271,7 +271,7 @@ viewBox="0 0 3.3989 1.0977"
               <div class="row-new">
               		<div class="col-lg-12 col-sm-12 alC">
                       <h2 class="alC">Choose convenience.</h2>
-                       <a class="btn btn-large btn-green" href="signup">Choose MSG91</a>
+                       <a class="btn btn-large btn-green" href="signup">Choose JIJICOM</a>
                     </div>
              </div>
           </div>
@@ -287,10 +287,10 @@ viewBox="0 0 3.3989 1.0977"
                     <h5><a href="features.1">Features</a></h5>
                     <h5 ><a href="pricing/index.html">Pricing</a></h5>
                     <!--<h5><a href="/case-studies">Case Study</a></h5>-->
-                    <h5><a href="http://blog.msg91.com">Blog</a></h5>
+                    <h5><a href="http://blog.JIJICOM.com">Blog</a></h5>
                     <!-- $protocol declared in header.php -->
-                    <h5><a href="http://api.msg91.com/apidoc">API</a></h5>
-                    <h5><a href="http://help.msg91.com/">Help</a></h5>
+                    <h5><a href="http://api.JIJICOM.com/apidoc">API</a></h5>
+                    <h5><a href="http://help.JIJICOM.com/">Help</a></h5>
                 </div>
             </aside>
 
@@ -313,7 +313,7 @@ viewBox="0 0 3.3989 1.0977"
                     <h5><a href="longcode">Long Code</a></h5>
                     <!--<h5><a href="/voice-sms">Voice SMS</a></h5>-->
                     <h5><a href="transactional-sms">Transactional SMS</a></h5>
-                    <h5><a href="http://sendotp.msg91.com/">SendOTP</a></h5>
+                    <h5><a href="http://sendotp.JIJICOM.com/">SendOTP</a></h5>
                 </div>
             </aside>
 
@@ -322,15 +322,15 @@ viewBox="0 0 3.3989 1.0977"
                     <h4>Tools &amp; Add-ons</h4>                    
                     <h5><a href="sms-for-spreadsheets">Excel plugin</a></h5>                    
                     <h5><a href="sms-for-spreadsheets">Google spreadsheet</a></h5>
-                    <h5><a href="http://www.magentocommerce.com/magento-connect/msg91-messaging-extension.html">Magento plugin</a></h5>                    
+                    <h5><a href="http://www.magentocommerce.com/magento-connect/JIJICOM-messaging-extension.html">Magento plugin</a></h5>
                     <h5><a href="cc2sms/index.html">CC2SMS</a></h5>
                     <h5><a href="http://smsaddons.com/" target="_blank">More Add-ons</a></h5>
                     <br/><br/>
                     <h5>Download Apps</h5>
                      <ul class="dload-app clearfix sc">
-                        <li id="apple"><a target="_blank" href="https://itunes.apple.com/us/app/msg91/id981827687" class="app apple"></a></li>
-                        <li id="android"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.msg91.android" class="app android"></a></li>
-                        <li id="windows"><a target="_blank" href="http://www.windowsphone.com/en-in/store/app/msg91/c91883dc-2f72-4586-b409-25cb111ff72d" class="app windows"></a></li>
+                        <li id="apple"><a target="_blank" href="https://itunes.apple.com/us/app/JIJICOM/id981827687" class="app apple"></a></li>
+                        <li id="android"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.JIJICOM.android" class="app android"></a></li>
+                        <li id="windows"><a target="_blank" href="http://www.windowsphone.com/en-in/store/app/JIJICOM/c91883dc-2f72-4586-b409-25cb111ff72d" class="app windows"></a></li>
                     </ul>
                 </div>
             </aside> 
@@ -343,10 +343,10 @@ viewBox="0 0 3.3989 1.0977"
                     <br/><br/>                
                     <h5>Find us on</h5>
                     <ul class="social clearfix sc">
-                        <li id="fb"><a target="_blank" rel="nofollow" href="https://www.facebook.com/msg91"><i class="ic-32 fb"></i></a></li>
+                        <li id="fb"><a target="_blank" rel="nofollow" href="https://www.facebook.com/JIJICOM"><i class="ic-32 fb"></i></a></li>
                         <li id="gp"><a target="_blank" rel="nofollow" href="https://plus.google.com/106160020771001486131"><i class="ic-32 gp"></i></a></li>
-                        <li id="tw"><a target="_blank" rel="nofollow" href="https://twitter.com/msg91com"><i class="ic-32 tw"></i></a></li>
-                        <li id="in" class="last"><a target="_blank" rel="nofollow" href="http://www.linkedin.com/company/msg91/"><i class="ic-32 in"></i></a></li>
+                        <li id="tw"><a target="_blank" rel="nofollow" href="https://twitter.com/JIJICOMcom"><i class="ic-32 tw"></i></a></li>
+                        <li id="in" class="last"><a target="_blank" rel="nofollow" href="http://www.linkedin.com/company/JIJICOM/"><i class="ic-32 in"></i></a></li>
                     </ul>
 
 
@@ -383,7 +383,7 @@ viewBox="0 0 3.3989 1.0977"
                 <div class="col-md-12 col-sm-12">
                     <div class="seosec">
                         <article>
-                            <strong>Excel Plugin</strong><br> Messaging made easy! Now, no need to increase your burden by working with panel and contact sheets separately. A new component, the excel plugin has been introduced in our MSG91 panel to assist your bulk messaging needs. How sending <strong>bulk SMS through excel</strong> can prove useful for you? Well, there's no need to switch back and forth from the panel to excel sheet for sending SMS to your contacts. It's all managed by the plugin itself.
+                            <strong>Excel Plugin</strong><br> Messaging made easy! Now, no need to increase your burden by working with panel and contact sheets separately. A new component, the excel plugin has been introduced in our JIJICOM panel to assist your bulk messaging needs. How sending <strong>bulk SMS through excel</strong> can prove useful for you? Well, there's no need to switch back and forth from the panel to excel sheet for sending SMS to your contacts. It's all managed by the plugin itself.
                             Stop wasting time in importing and exporting your contacts. Just utilize the features of our new plugin and <strong>send SMS from excel</strong> for your needs in a simpler way. Now the question arises  <strong>How to send bulk sms from excel sheet?</strong> It's easy! All you need to do is embed our <strong>bulk SMS excel plugin</strong> in your sheet and send messages from there itself in a single go without  the need of going back to the panel. With just a few clicks on your screen, all the messages are delivered without following useless steps. 
                         </article>
                     </div>    
@@ -395,7 +395,7 @@ viewBox="0 0 3.3989 1.0977"
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <p class="sub-footer">MSG91 © 2008-2016 MSG91 | All Rights Reserved. | <a href="terms">Terms of use</a> | <a href="privacy">Privacy policy</a>
+                <p class="sub-footer">JIJICOM © 2008-2016 JIJICOM | All Rights Reserved. | <a href="terms">Terms of use</a> | <a href="privacy">Privacy policy</a>
                 </p>
             </div>
         </div>
