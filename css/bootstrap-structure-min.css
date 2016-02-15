@@ -1861,7 +1861,7 @@ a, body, button, input, select, textarea {
         line-height: 40px
     }
 
-,.mainCnt #banner h1 {
+.mainCnt #banner h1 {
      margin-top: 15px
  }
 
@@ -2681,7 +2681,7 @@ a, body, button, input, select, textarea {
     box-sizing: border-box
 }
 
-a, abbr, address, article, aside, audio, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, radio, samp, section, select, small, span, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, var, video {
+a, abbr, address, article, aside, audio, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, radio, samp, section, select, small, span, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, var, video {
     margin: 0;
     padding: 0;
     outline: 0
