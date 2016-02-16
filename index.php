@@ -32,7 +32,7 @@ require_once('header.php');
 
                     </div>
                     <div class="bottom-btn">
-                        <a href="signup" class="btn btn-large btn-solid">Try our service</a>
+                        <a href="signup.php" class="btn btn-large btn-solid">Try our service</a>
                         <a href="#" class="btn btn-large btn-blank">Get In Touch 24/7 Support</a>
                         </div>
                     <div class="clear"></div>
@@ -56,18 +56,18 @@ require_once('header.php');
     <!-- SECTION START -->
     <section id="LtblueLabel">
         <div class="container">		
-            <h3 class="">Features that make us <span>smart</span></h3>        
+            <h3 class="">Features that make us <span>unique</span></h3>
             <div class="row pr">
                 <div class="h4wrap">
                     <div class="tbl">
                         <h4><a href="features.1">
-                                <span>S</span>mart <span>M</span>essaging <span>S</span>ervice
+                                <span>U</span>nique <span>M</span>essaging <span>S</span>ervice
                             </a></h4>
                     </div>
                 </div>
                 <figure>
-                    <img class="lazy gr1" data-original="https://d250qlh00f3d5m.cloudfront.net/feature_landing-graphic.png" alt="Smart Messaging Service" />
-                    <img class="lazy gr2" src="images/feature_responsive.png" alt="Smart Messaging Service" />
+                    <img class="lazy gr1" data-original="images/feature_landing-graphic.png" alt="Unique Messaging Service" />
+                    <img class="lazy gr2" src="images/feature_responsive.png" alt="Unique Messaging Service" />
                 </figure>
             </div>
         </div>
