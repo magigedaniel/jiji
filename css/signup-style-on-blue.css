@@ -182,7 +182,7 @@ b{font-family:'Gotham-Rounded-Medium';}
    width: 100%;
    color: #fff;
 }
-#formScreen{background:#1e75ba; padding-top:80px}
+#formScreen{background:lightgreen; padding-top:80px}
 #formScreen .col-md-6{padding:0}
 #contScreen .row{padding: 50px 0}
 
@@ -269,7 +269,7 @@ b{font-family:'Gotham-Rounded-Medium';}
 	margin-bottom: 20px;
 	position: relative;
 }
-.formWrap a:hover{color: #1e75ba;}
+.formWrap a:hover{color: lightgreen;}
 .formWrap label.formError{
 	position: absolute;
 	right: 0;

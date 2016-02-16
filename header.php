@@ -15,8 +15,8 @@
     <meta name="organization" content="JIJICOM" />
     <meta name="copyright" content="JIJICOM All Rights Reserved" />
     <link rel="canonical"  href="index.html" />
-    <meta name="keywords" content="bJijiCom media, bJijiCom media service, bJijiCom media service provider, transactional bJijiCom media, promotional bJijiCom media, bJijiCom media gateway bJijiCom media provider," />
-    <meta name="description" content="JIJICOM, a bJijiCom media service provider offers transactional & promotional bJijiCom media solutions to enterprises via powerful & robust bJijiCom media gateway internationally." />
+    <meta name="keywords" content="JijiCom media, JijiCom media service, JijiCom media service provider, transactional JijiCom media, promotional JijiCom media, JijiCom media gateway JijiCom media provider," />
+    <meta name="description" content="JIJICOM, a JijiCom media service provider offers transactional & promotional JijiCom media solutions to enterprises via powerful & robust JijiCom media gateway internationally." />
     <title>JIJICOM MEDIA LTD </title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -87,7 +87,7 @@
 </style>
 <header>
     <div class="container clear pr">
-        <a href="" id="logo"> <img src="images/Jijicom-Media-logo2.png" width="160%">
+        <a href="index.php" id="logo"> <img src="images/Jijicom-Media-logo2.png" width="160%">
         </a>
         <div id="mobNav" class="">
             <img id="navopen" data-original="/images/menu_icon.png" src="images/menu_icon.png" alt="JIJICOM" />
@@ -95,7 +95,7 @@
         </div>
         <nav id="colorNav">
             <ul class="navi">
-                <li class="menu "><a href="$">Pricing</a></li>
+                <li class="menu "><a href="#">Pricing</a></li>
                 <li class="menu "><a target="_Blank" href="#">Contacts</a></li>
                 <li class="parentMenus pr "><a href="javascript:void(0)">Services</a>
                     <div class="menu-bg">

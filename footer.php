@@ -102,16 +102,15 @@
                         </article>
                         <article><strong>What JIJICOM has to offer you?</strong><br> JIJICOM is a smart messaging
                             solution that disseminates JijiCom media via its SMS gateway in a blink. Its robust
-                            infrastructure allows you to generate instant reports and send up to 1 Lakh SMS with just
-                            one click. Our various add-ons like JijiCom media excel plugin, JijiCom media mobile app,
-                            CC2SMS, a rewarding reseller program etc will give you endless opportunities to make your
+                            infrastructure allows you to generate instant reports and send up to a 10000 SMS with just
+                            one click. Our various add-ons like JijiCom media excel plugin, JijiCom media mobile app, a rewarding reseller program etc will give you endless opportunities to make your
                             business communication easy, smooth, productive and easy on pocket. With every new step we
                             try unlocking new levels of possibilities and unfold new chapters to give novel dimensions
                             to messaging and enhance user experience.
                         </article>
                         <article><strong>Grow with us!</strong><br>We have been in the JijiCom media industry from the
                             past two years. We have a proven track record of delivering JijiCom media in Africa
-                            across diverse business sectors and our myriad of happy customers sends out the message of
+                            across diverse business sectors and our more happy customers sends out the message of
                             our efficacy.
                         </article>
                     </div>
@@ -138,24 +137,6 @@
 <script type="text/javascript" src='js/newScript2015.js'></script>
 <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
 <script type="text/javascript" src="js/event.js"></script>
-<!-- Google Tag Manager -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWQZXP"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<script>(function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MWQZXP');</script>
-<!-- End Google Tag Manager -->
 
 <script type="text/javascript">
 
@@ -414,16 +395,7 @@
      imageUrl: ""
      });*/
 </script>
-<!-- Google Code for Remarketing tag -->
-<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
-<script type="text/javascript">
-    /* <![CDATA[ */
-    var google_conversion_id = 963669542;
-    var google_conversion_label = "qoB9CLLM0wQQptzBywM";
-    var google_custom_params = window.google_tag_params;
-    var google_remarketing_only = true;
-    /* ]]> */
-</script>
+
 <script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>

@@ -3155,8 +3155,8 @@ label.valid {
 }
 
 .btn-solid {
-    background-color: #1E75BA;
-    border: 1px solid #1E75BA;
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
     color: #fff
 }
 
@@ -3442,13 +3442,13 @@ hr {
     color: #fff;
     line-height: 34px;
     display: block;
-    border: 1px solid #1E75BA;
-    background-color: #1E75BA
+    border: 1px solid lightgreen;
+    background-color: lightgreen
 }
 
 #colorNav > ul > li.bt > a:hover {
     background-color: transparent;
-    color: #1E75BA
+    color: lightgreen
 }
 
 #colorNav li ul {
@@ -3480,7 +3480,7 @@ hr {
 }
 
 #mobNav {
-    background: #1e75ba;
+    background: lightgreen;
     cursor: pointer;
     display: none;
     height: 37px;
@@ -3613,7 +3613,7 @@ p#or {
 }
 
 #top_footer figure {
-    background: url(https://d250qlh00f3d5m.cloudfront.net/footer_illustration2.png) center center no-repeat;
+    background: url(../images/footer_illustration2.png) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
